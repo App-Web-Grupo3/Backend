@@ -35,6 +35,27 @@ public class RepresentanteController: ControllerBase
         return Ok(response);
     }
 
+    [HttpPost]
+    public async Task<IActionResult> PostAsync([FromBody] RepresentanteRequest resource)
+    {
+        try
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+
+            var tutorial = _mapper.Map<RepresentanteRequest, Representante>(resource);
+            return Ok(_representanteDomain.SaveAsync(tutorial));
+            // return tutorialDomain.Create(value);
+        }
+        catch (Exception e)
+        {
+            return StatusCode(500);
+        }
+    }
+    
+
 
 
 
