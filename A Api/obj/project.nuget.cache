@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "z6bJq6o9JTiJZpEvjm/33weC1NAmaMOknzD6BJVdXkosSJj4MgERM3voQeNudj5ad9jr5av5Vqt7IY8JakWwDQ==",
+  "dgSpecHash": "9Dhmtvbfl+Czh5A4BaRzc/UmzDlOVcJi7R87M7VJDYK3WQAe8iH8uruAoWG9AJ+3GXpG4QtyKEo+Ylb1Zdlfrg==",
   "success": true,
   "projectFilePath": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Backend proyecto\\Unique Trip -Backend\\UniqueTrip\\A Api\\A Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\alyne\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\alyne\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\alyne\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
+    "C:\\Users\\alyne\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\alyne\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.4\\microsoft.entityframeworkcore.7.0.4.nupkg.sha512",
     "C:\\Users\\alyne\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.4\\microsoft.entityframeworkcore.abstractions.7.0.4.nupkg.sha512",
     "C:\\Users\\alyne\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.4\\microsoft.entityframeworkcore.analyzers.7.0.4.nupkg.sha512",

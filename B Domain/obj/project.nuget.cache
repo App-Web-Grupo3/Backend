@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "jUAI8go1xCB6W/KmWQ1uyN2kxX7jN3r1ag4sgaxyTaOV9aBDvNlH0y8ORPhA0/mqVmTPSpolaIo9KMGJReydNQ==",
+  "dgSpecHash": "W5R66GhhaJvv/6nV5qNjTgpWFYwGAk+BMV3yza5OUKG2lPGWfhrQ27LHshoHun4mhLZ6qhlmIupjuVCuVKHrwA==",
   "success": true,
   "projectFilePath": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Backend proyecto\\Unique Trip -Backend\\UniqueTrip\\B Domain\\B Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\alyne\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\alyne\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\alyne\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.4\\microsoft.entityframeworkcore.7.0.4.nupkg.sha512",
     "C:\\Users\\alyne\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.4\\microsoft.entityframeworkcore.abstractions.7.0.4.nupkg.sha512",
     "C:\\Users\\alyne\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.4\\microsoft.entityframeworkcore.analyzers.7.0.4.nupkg.sha512",

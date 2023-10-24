@@ -1,0 +1,44 @@
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\appsettings.json
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\A Api.exe
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\A Api.deps.json
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\A Api.runtimeconfig.json
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\A Api.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\A Api.pdb
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\B Domain.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\C Data.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\C Data.pdb
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\B Domain.pdb
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\A Api.csproj.AssemblyReference.cache
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\A Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\A Api.AssemblyInfoInputs.cache
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\A Api.AssemblyInfo.cs
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\A Api.csproj.CoreCompileInputs.cache
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\A Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\A Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\staticwebassets\msbuild.A Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\staticwebassets\msbuild.build.A Api.props
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.A Api.props
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.A Api.props
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\scopedcss\bundle\A Api.styles.css
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\A Api.csproj.CopyComplete
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\A Api.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\refint\A Api.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\A Api.pdb
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\A Api.genruntimeconfig.cache
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\ref\A Api.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
