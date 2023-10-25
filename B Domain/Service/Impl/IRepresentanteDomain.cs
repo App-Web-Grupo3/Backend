@@ -10,5 +10,6 @@ public interface IRepresentanteDomain
     Task<Representante> UpdateAsync(int idRepresentante, Representante representante);
     Task<Representante> DeleteAsync(int idRepresentante);
     Task<Representante> GetByIdAsync(int idRepresentante);
+    
 }
 
