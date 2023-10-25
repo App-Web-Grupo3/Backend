@@ -21,7 +21,9 @@ public class RepresentanteData: IRepresentanteData
 
     public async Task AddAsync(Representante representante)
     {
-       await _appDbContext.Representantes.AddAsync(representante);
+        
+        _appDbContext.Representantes.AddAsync(representante);
+        await _appDbContext.SaveChangesAsync();
     }
 
     public async Task<Representante> FindByIdAsync(int id)
@@ -32,10 +34,12 @@ public class RepresentanteData: IRepresentanteData
     public void Update(Representante representante)
     {
         _appDbContext.Representantes.Update(representante);
+        _appDbContext.SaveChangesAsync();
     }
 
     public void Remove(Representante representante)
     {
         _appDbContext.Representantes.Remove(representante);
+        _appDbContext.SaveChangesAsync();
     }
 }

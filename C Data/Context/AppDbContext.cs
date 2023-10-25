@@ -16,8 +16,12 @@ public class AppDbContext : DbContext
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        var serverVersion = new MySqlServerVersion(new Version(8, 0, 33));
-        optionsBuilder.UseMySql("Server=127.0.0.1,3306;Uid=root;Pwd=c0mpl1ces;Database=uniquetrip;", serverVersion);
+        if (!optionsBuilder.IsConfigured)
+        {
+            var serverVersion = new MySqlServerVersion(new Version(8, 0, 33));
+            optionsBuilder.UseMySql("Server=127.0.0.1,3306;Uid=root;Pwd=c0mpl1ces;Database=uniquetrip;", serverVersion);
+        }
+       
     }
 
     protected override void OnModelCreating(ModelBuilder builder)
@@ -26,6 +30,7 @@ public class AppDbContext : DbContext
         
         builder.Entity<Representante>().ToTable("representantes");
         builder.Entity<Representante>().HasKey(p => p.Id);
+        builder.Entity<Representante>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
         builder.Entity<Representante>().Property(p => p.Nombre).IsRequired();
         builder.Entity<Representante>().Property(p => p.Apellido).IsRequired();
         builder.Entity<Representante>().Property(p => p.Correo).IsRequired();
