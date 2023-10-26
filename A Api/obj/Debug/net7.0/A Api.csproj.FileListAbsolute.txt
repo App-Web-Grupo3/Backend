@@ -42,3 +42,47 @@ C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones we
 C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\A Api.genruntimeconfig.cache
 C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\obj\Debug\net7.0\ref\A Api.dll
 C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend proyecto\Unique Trip -Backend\UniqueTrip\A Api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\appsettings.Development.json
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\appsettings.json
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\A Api.exe
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\A Api.deps.json
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\A Api.runtimeconfig.json
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\A Api.dll
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\A Api.pdb
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\AutoMapper.dll
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\MySqlConnector.dll
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\B Domain.dll
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\C Data.dll
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\C Data.pdb
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\B Domain.pdb
+C:\GithubProjects\Backend\A Api\obj\Debug\net7.0\A Api.csproj.AssemblyReference.cache
+C:\GithubProjects\Backend\A Api\obj\Debug\net7.0\A Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\GithubProjects\Backend\A Api\obj\Debug\net7.0\A Api.AssemblyInfoInputs.cache
+C:\GithubProjects\Backend\A Api\obj\Debug\net7.0\A Api.AssemblyInfo.cs
+C:\GithubProjects\Backend\A Api\obj\Debug\net7.0\A Api.csproj.CoreCompileInputs.cache
+C:\GithubProjects\Backend\A Api\obj\Debug\net7.0\A Api.MvcApplicationPartsAssemblyInfo.cs
+C:\GithubProjects\Backend\A Api\obj\Debug\net7.0\A Api.MvcApplicationPartsAssemblyInfo.cache
+C:\GithubProjects\Backend\A Api\obj\Debug\net7.0\staticwebassets\msbuild.A Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\GithubProjects\Backend\A Api\obj\Debug\net7.0\staticwebassets\msbuild.build.A Api.props
+C:\GithubProjects\Backend\A Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.A Api.props
+C:\GithubProjects\Backend\A Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.A Api.props
+C:\GithubProjects\Backend\A Api\obj\Debug\net7.0\staticwebassets.pack.json
+C:\GithubProjects\Backend\A Api\obj\Debug\net7.0\staticwebassets.build.json
+C:\GithubProjects\Backend\A Api\obj\Debug\net7.0\staticwebassets.development.json
+C:\GithubProjects\Backend\A Api\obj\Debug\net7.0\scopedcss\bundle\A Api.styles.css
+C:\GithubProjects\Backend\A Api\obj\Debug\net7.0\A Api.csproj.CopyComplete
+C:\GithubProjects\Backend\A Api\obj\Debug\net7.0\A Api.dll
+C:\GithubProjects\Backend\A Api\obj\Debug\net7.0\refint\A Api.dll
+C:\GithubProjects\Backend\A Api\obj\Debug\net7.0\A Api.pdb
+C:\GithubProjects\Backend\A Api\obj\Debug\net7.0\A Api.genruntimeconfig.cache
+C:\GithubProjects\Backend\A Api\obj\Debug\net7.0\ref\A Api.dll

@@ -4,7 +4,7 @@ using UniqueTrip.Request;
 
 namespace UniqueTrip.Mapper;
 
-public class ResourceToModel :Profile
+public class ResourceToModel : Profile
 {
     public ResourceToModel()
     {
