@@ -11,6 +11,8 @@ public class ModelToResource : Profile
     {
         CreateMap<Representante, RepresentanteRequest>();
         CreateMap<Representante, RepresentanteResponse>();
+        CreateMap<Tourist, TouristRequest>();
+        CreateMap<Tourist, TouristResponse>();
     }
     
 }

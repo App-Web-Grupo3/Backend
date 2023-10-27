@@ -4,10 +4,11 @@ using UniqueTrip.Request;
 
 namespace UniqueTrip.Mapper;
 
-public class ResourceToModel :Profile
+public class ResourceToModel : Profile
 {
     public ResourceToModel()
     {
         CreateMap<RepresentanteRequest, Representante>();
+        CreateMap<TouristRequest, Tourist>();
     }
 }
