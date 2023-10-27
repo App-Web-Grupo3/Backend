@@ -277,3 +277,5 @@ C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System
 C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "D9wPK8l+p+Ept8ZSJlqmrkYS6ifo5Tj/bmMzgxa5OfGQuikZv+zQ7lnTch0vYog0MbjNhtvNrXUMgx/AaMxBfQ==",
+  "dgSpecHash": "b7WHG29VaDnR3TCzKjqIf0LIcK3mv+2FlXEs4bDQFn5hm2uFl2lwTDIuIywVk3qYosaxINMRWl89RCh4QcSI0A==",
   "success": true,
   "projectFilePath": "C:\\GithubProjects\\Backend\\A Api\\A Api.csproj",
   "expectedPackageFiles": [
@@ -83,8 +83,8 @@
     "C:\\Users\\JORGE\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\JORGE\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\JORGE\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\JORGE\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
-    "C:\\Users\\JORGE\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\JORGE\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0-rc.2.23479.6\\microsoft.extensions.dependencyinjection.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\JORGE\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-rc.2.23479.6\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512",
     "C:\\Users\\JORGE\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\JORGE\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\JORGE\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
