@@ -34,8 +34,7 @@ public class RepresentanteController: ControllerBase
         var response = _mapper.Map<Representante, RepresentanteResponse>(representante);
         return Ok(response);
     }
-
-
+    
 
 
 }

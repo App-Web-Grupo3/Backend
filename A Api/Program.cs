@@ -16,9 +16,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
-
+//Dependencie Injection 
 builder.Services.AddScoped<IRepresentanteDomain, RepresentanteDomain>();
 builder.Services.AddScoped<IRepresentanteData, RepresentanteData>();
+builder.Services.AddScoped<ITouristDomain, TouristDomain>();
+builder.Services.AddScoped<ITouristData, TouristData>();
 
 var connectionString = builder.Configuration.GetConnectionString("Conection");
 
