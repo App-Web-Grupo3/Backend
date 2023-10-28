@@ -1,7 +1,11 @@
-﻿namespace Data.Model;
+﻿using System.ComponentModel.DataAnnotations;
 
-public class Activities : Base
+namespace UniqueTrip.Request;
+
+public class ActivitiesRequest
 {
+    [Required]
+    [MaxLength(50)]
     public string? Title { get; set; }
     public string? Description { get; set; }
     public bool? Discount { get; set; }
@@ -9,8 +13,5 @@ public class Activities : Base
     public bool Restriction { get; set; }
     public int people { get; set; }
     public float Price { get; set; }
-    
     public int CompanyId { get; set; }
-    public Company Company { get; set; }
-    public List<Comment> Comments { get; set; }
 }
