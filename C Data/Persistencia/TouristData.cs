@@ -7,7 +7,7 @@ namespace Data.Persistencia;
 
 public class TouristData : ITouristData
 {
-      private readonly AppDbContext _appDbContext;
+    private readonly AppDbContext _appDbContext;
 
     public TouristData(AppDbContext appDbContext)
     {
@@ -48,7 +48,6 @@ public class TouristData : ITouristData
         {
             return false;
         }
-        
     }
 
     public async Task<bool> Update(Tourist tourist, int id)
