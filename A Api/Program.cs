@@ -21,6 +21,8 @@ builder.Services.AddScoped<IRepresentanteDomain, RepresentanteDomain>();
 builder.Services.AddScoped<IRepresentanteData, RepresentanteData>();
 builder.Services.AddScoped<ITouristDomain, TouristDomain>();
 builder.Services.AddScoped<ITouristData, TouristData>();
+builder.Services.AddScoped<IResponseDomain, ResponseDomain>();
+builder.Services.AddScoped<IResponseData, ResponseData>();
 
 var connectionString = builder.Configuration.GetConnectionString("Conection");
 
@@ -49,10 +51,10 @@ var app = builder.Build();
 
 
 using (var scoope = app.Services.CreateScope())
-    using (var context = scoope.ServiceProvider.GetService<AppDbContext>())
-    {
-        context.Database.EnsureCreated();
-    }
+using (var context = scoope.ServiceProvider.GetService<AppDbContext>())
+{
+    context.Database.EnsureCreated();
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

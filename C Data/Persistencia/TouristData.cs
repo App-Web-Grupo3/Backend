@@ -18,10 +18,9 @@ public class TouristData : ITouristData
         return await _appDbContext.Tourists.Where(t => t.Id == id && t.IsActive == true).FirstOrDefaultAsync();
     }
 
-    public async Task<List<Tourist>> GetFilteredData(Tourist tourist)
+    public async Task<List<Tourist>> GetByName(Tourist tourist)
     {
         return await _appDbContext.Tourists.Where(t => t.Name.Contains(tourist.Name)
-                                                    && t.LastName.Contains(tourist.LastName)
                                                     && t.IsActive == true).ToListAsync();
     }
 
@@ -30,10 +29,10 @@ public class TouristData : ITouristData
         return await _appDbContext.Tourists.Where(t => t.IsActive == true).ToListAsync();
     }
 
-    public async Task<bool> GetByPhone(string phone)
+    public async Task<List<Tourist>> GetByPhone(Tourist tourist)
     {
-        var count = await _appDbContext.Tourists.Where(t => t.Phone == phone && t.IsActive == true).ToListAsync();
-        return count.Count() > 0;
+        return await _appDbContext.Tourists.Where(t => t.Phone.Contains(tourist.Phone)
+                                                       && t.IsActive == true).ToListAsync();
     }
 
     public async Task<bool> Create(Tourist tourist)

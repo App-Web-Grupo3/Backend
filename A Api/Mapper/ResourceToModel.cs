@@ -10,5 +10,6 @@ public class ResourceToModel : Profile
     {
         CreateMap<RepresentanteRequest, Representante>();
         CreateMap<TouristRequest, Tourist>();
+        CreateMap<ResponseRequest, Answer>();
     }
 }

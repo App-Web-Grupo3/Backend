@@ -13,6 +13,8 @@ public class ModelToResource : Profile
         CreateMap<Representante, RepresentanteResponse>();
         CreateMap<Tourist, TouristRequest>();
         CreateMap<Tourist, TouristResponse>();
+        CreateMap<Answer, ResponseRequest>();
+        CreateMap<Answer, ResResponse>();
     }
     
 }

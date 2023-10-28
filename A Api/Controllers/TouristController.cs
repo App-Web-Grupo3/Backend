@@ -32,7 +32,7 @@ namespace UniqueTrip.Controllers
             var response = _mapper.Map<List<Tourist>, List<TouristResponse>>(tourist);
             return response;
         }
-
+        
         // GET: api/Tourist/5
         [HttpGet("{id}", Name = "GetById")]
         public async Task<TouristResponse> GetById(int id)
@@ -42,6 +42,31 @@ namespace UniqueTrip.Controllers
             return response;
         }
         
+        // GET: api/Tourist/name
+        [HttpGet("GetByName")]
+        public async Task<List<TouristResponse>> GetByName(string name)
+        {
+            Tourist tourist = new Tourist()
+            {
+                Name = name,
+            };
+            var touristByName = await _touristData.GetByName(tourist);
+            var response = _mapper.Map<List<Tourist>, List<TouristResponse>>(touristByName);
+            return response;
+        }
+        
+        // GET: api/Tourist/5
+        [HttpGet("GetByPhone")]
+        public async Task<List<TouristResponse>> GetByPhone(string phone)
+        {
+            Tourist tourist = new Tourist()
+            {
+                Phone = phone,
+            };
+            var touristByName = await _touristData.GetByPhone(tourist);
+            var response = _mapper.Map<List<Tourist>, List<TouristResponse>>(touristByName);
+            return response;
+        }
         
         // POST: api/Tourist
         [HttpPost]

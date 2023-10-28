@@ -22,9 +22,9 @@ public class TouristDomain : ITouristDomain
         return result;
     }
 
-    public async Task<List<Tourist>> GetFilteredData(Tourist tourist)
+    public async Task<List<Tourist>> GetByName(Tourist tourist)
     {
-        return await _touristData.GetFilteredData(tourist);
+        return await _touristData.GetByName(tourist);
     }
 
     public async Task<List<Tourist>> GetAll()
@@ -32,26 +32,29 @@ public class TouristDomain : ITouristDomain
         return await _touristData.GetAll();
     }
 
-    public async Task<bool> GetByPhone(string phone)
+    public async Task<List<Tourist>> GetByPhone(Tourist tourist)
     {
-        var result = await _touristData.GetByPhone(phone);
-        if (result == false)
-            throw new KeyNotFoundException("Phone not found");
-
-        return result;
+        return await _touristData.GetByPhone(tourist);
     }
+
 
     public async Task<bool> Create(Tourist tourist)
     {
+        try
+        {
+            var result = await _touristData.GetByPhone(tourist);
 
-            var result = await _touristData.GetByPhone(tourist.Phone);
-
-            if (!result)
+            if (result != null && result.Count == 0)
             {
                 return await _touristData.Create(tourist);
             }
 
             return false;
+        }
+        catch (Exception e)
+        {
+            return false;
+        }
 
     }
 
@@ -59,9 +62,9 @@ public class TouristDomain : ITouristDomain
     {
         try
         {
-            var result = await _touristData.GetByPhone(tourist.Phone);
+            var result = await _touristData.GetByPhone(tourist);
 
-            if (!result)
+            if (result != null && result.Count == 0)
             {
                 return await _touristData.Update(tourist, id);
             }
