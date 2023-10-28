@@ -18,8 +18,8 @@ public class AppDbContext : DbContext
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        var serverVersion = new MySqlServerVersion(new Version(8, 0, 33));
-        optionsBuilder.UseMySql("Server=127.0.0.1,3306;Uid=root;Pwd=c0mpl1ces;Database=uniquetrip;", serverVersion);
+        var serverVersion = new MySqlServerVersion(new Version(8, 0, 29));
+        optionsBuilder.UseMySql("Server=127.0.0.1,3306;Uid=root;Pwd=12345;Database=uniquetrip;", serverVersion);
     }
 
     protected override void OnModelCreating(ModelBuilder builder)
