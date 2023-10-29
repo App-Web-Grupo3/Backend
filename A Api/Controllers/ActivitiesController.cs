@@ -13,6 +13,8 @@ using UniqueTrip.Response;
 
 namespace UniqueTrip.Controllers
 {
+    [ApiController]
+    [Route("api/v1/Activities")]
     public class ActivitiesController : Controller
     {
         private readonly IActivitiesDomain _activitiesDomain;
@@ -26,7 +28,7 @@ namespace UniqueTrip.Controllers
             _mapper = mapper;
         }
         // GET: api/Activities
-        [HttpGet("GetActivities")]
+        [HttpGet]
         public async Task<List<ActivitiesResponse>> GetAll()
         {
             var response = await _activitiesData.GetAll();
@@ -35,7 +37,7 @@ namespace UniqueTrip.Controllers
         }
 
         // GET: api/Activities/5
-        [HttpGet("{id}", Name = "GetResponseById")]
+        [HttpGet("{id}", Name = "GetActivityById")]
         public async Task<ActivitiesResponse> GetById(int id)
         {
             var response = await _activitiesData.GetById(id);
@@ -44,7 +46,7 @@ namespace UniqueTrip.Controllers
         }
 
         // GET: api/Activities/title
-        [HttpGet("GetByTitle")]
+        [HttpGet("{title}")]
         public async Task<List<ActivitiesResponse>> GetByTitle(string title)
         {
             Activities initial = new Activities()

@@ -32,33 +32,35 @@ public class ActivitiesDomain : IActivitiesDomain
         return await _activitiesData.GetAll();
     }
 
-    public async Task<bool> Create(Activities answer)
+    public async Task<bool> Create(Activities activity)
     {
         try
         {
-            var result = await _activitiesData.GetByTitle(answer);
+            var result = await _activitiesData.GetByTitle(activity);
 
             if (result != null && result.Count == 0)
             {
-                return await _activitiesData.Create(answer);
+                Console.WriteLine("Domain:)");
+                return _activitiesData.Create(activity);
             }
+            Console.WriteLine("pipipiDomain");
             return false;
         }
         catch (Exception e)
         {
-            throw new Exception(e.Message);
+            throw new Exception(e.Message + "pipipi");
         }
     }
 
-    public async Task<bool> Update(Activities title, int id)
+    public async Task<bool> Update(Activities activity, int id)
     {
         try
         {
-            var result = await _activitiesData.GetByTitle(title);
+            var result = await _activitiesData.GetByTitle(activity);
 
             if (result != null && result.Count == 0)
             {
-                return await _activitiesData.Update(title, id);
+                return await _activitiesData.Update(activity, id);
             }
             return false;
         }

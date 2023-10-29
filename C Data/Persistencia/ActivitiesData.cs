@@ -1,6 +1,7 @@
 ﻿using Data.Context;
 using Data.Model;
 using Data.Persistencia.Impl;
+using Microsoft.EntityFrameworkCore;
 
 namespace Data.Persistencia;
 
@@ -12,33 +13,81 @@ public class ActivitiesData : IActivitiesData
     {
         _appDbContext = appDbContext;
     }
-    public Task<Activities> GetById(int id)
+    public async Task<Activities> GetById(int id)
     {
-        throw new NotImplementedException();
+        return await _appDbContext.Activities.Where(r => r.Id == id && r.IsActive == true).FirstOrDefaultAsync();
+
     }
 
-    public Task<List<Activities>> GetByTitle(Activities answer)
+    public async Task<List<Activities>> GetByTitle(Activities activity)
     {
-        throw new NotImplementedException();
+        return await _appDbContext.Activities.Where(a => a.Title.Contains(activity.Title) && a.IsActive == true)
+            .ToListAsync();
     }
 
-    public Task<List<Activities>> GetAll()
+    public async Task<List<Activities>> GetAll()
     {
-        throw new NotImplementedException();
+        return await _appDbContext.Activities.Where(r => r.IsActive == true).ToListAsync();
+
     }
 
-    public Task<bool> Create(Activities answer)
+    public bool Create(Activities activity)
     {
-        throw new NotImplementedException();
+        try
+        {
+            _appDbContext.Activities.Add(activity);
+            _appDbContext.SaveChangesAsync();
+            Console.WriteLine("Data:)");
+
+            return true;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("pipipiData");
+            return false;
+        }
     }
 
-    public Task<bool> Update(Activities answer, int id)
+    public async Task<bool> Update(Activities activity, int id)
     {
-        throw new NotImplementedException();
+        try
+        {
+            var activityUpdated = _appDbContext.Activities.Where(r => r.Id == id).FirstOrDefault();
+
+            activityUpdated.Title = activity.Title;
+            activityUpdated.Description = activity.Description;
+            activityUpdated.Discount = activity.Discount;
+            activityUpdated.Percentage = activity.Percentage;
+            activityUpdated.Restriction = activity.Restriction;
+            activityUpdated.people = activity.people;
+            activityUpdated.Price = activity.Price;
+            activityUpdated.DateUpdated = DateTime.Now;
+
+            _appDbContext.Activities.Update(activityUpdated);
+            await _appDbContext.SaveChangesAsync();
+            return true;
+        }
+        catch (Exception e)
+        {
+            return false;
+        }
     }
 
-    public Task<bool> Delete(int id)
+    public async Task<bool> Delete(int id)
     {
-        throw new NotImplementedException();
+        try
+        {
+            var responseDeleted = _appDbContext.Responses.Where(r => r.Id == id).FirstOrDefault();
+
+            responseDeleted.IsActive = false;
+            responseDeleted.DateUpdated = DateTime.Now;
+            _appDbContext.Responses.Update(responseDeleted);
+            await _appDbContext.SaveChangesAsync();
+            return true;
+        }
+        catch (Exception e)
+        {
+            return false;
+        }
     }
 }

@@ -10,7 +10,7 @@ public class Activities : Base
     public int people { get; set; }
     public float Price { get; set; }
     
-    public int CompanyId { get; set; }
-    public Company Company { get; set; }
-    public List<Comment> Comments { get; set; }
+    //public int CompanyId { get; set; }
+    //public Company Company { get; set; }
+    //public List<Comment> Comments { get; set; }
 }
