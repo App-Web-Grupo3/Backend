@@ -41,7 +41,7 @@ public class ActivitiesDomain : IActivitiesDomain
             if (result != null && result.Count == 0)
             {
                 Console.WriteLine("Domain:)");
-                return _activitiesData.Create(activity);
+                return await _activitiesData.Create(activity);
             }
             Console.WriteLine("pipipiDomain");
             return false;

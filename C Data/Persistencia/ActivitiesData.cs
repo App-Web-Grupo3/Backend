@@ -31,12 +31,12 @@ public class ActivitiesData : IActivitiesData
 
     }
 
-    public bool Create(Activities activity)
+    public async Task<bool> Create(Activities activity)
     {
         try
         {
             _appDbContext.Activities.Add(activity);
-            _appDbContext.SaveChangesAsync();
+            await _appDbContext.SaveChangesAsync();
             Console.WriteLine("Data:)");
 
             return true;
@@ -61,6 +61,7 @@ public class ActivitiesData : IActivitiesData
             activityUpdated.Restriction = activity.Restriction;
             activityUpdated.people = activity.people;
             activityUpdated.Price = activity.Price;
+            activityUpdated.IsActive = activity.IsActive;
             activityUpdated.DateUpdated = DateTime.Now;
 
             _appDbContext.Activities.Update(activityUpdated);
@@ -77,11 +78,11 @@ public class ActivitiesData : IActivitiesData
     {
         try
         {
-            var responseDeleted = _appDbContext.Responses.Where(r => r.Id == id).FirstOrDefault();
+            var responseDeleted = _appDbContext.Activities.Where(r => r.Id == id).FirstOrDefault();
 
             responseDeleted.IsActive = false;
             responseDeleted.DateUpdated = DateTime.Now;
-            _appDbContext.Responses.Update(responseDeleted);
+            _appDbContext.Activities.Update(responseDeleted);
             await _appDbContext.SaveChangesAsync();
             return true;
         }

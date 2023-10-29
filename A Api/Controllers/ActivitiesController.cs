@@ -14,7 +14,7 @@ using UniqueTrip.Response;
 namespace UniqueTrip.Controllers
 {
     [ApiController]
-    [Route("api/v1/Activities")]
+    [Route("api/v1/[controller]")]
     public class ActivitiesController : Controller
     {
         private readonly IActivitiesDomain _activitiesDomain;
@@ -28,7 +28,7 @@ namespace UniqueTrip.Controllers
             _mapper = mapper;
         }
         // GET: api/Activities
-        [HttpGet]
+        [HttpGet("all")]
         public async Task<List<ActivitiesResponse>> GetAll()
         {
             var response = await _activitiesData.GetAll();
@@ -37,7 +37,7 @@ namespace UniqueTrip.Controllers
         }
 
         // GET: api/Activities/5
-        [HttpGet("{id}", Name = "GetActivityById")]
+        [HttpGet("id/{id}")]
         public async Task<ActivitiesResponse> GetById(int id)
         {
             var response = await _activitiesData.GetById(id);
@@ -46,7 +46,7 @@ namespace UniqueTrip.Controllers
         }
 
         // GET: api/Activities/title
-        [HttpGet("{title}")]
+        [HttpGet("title/{title}")]
         public async Task<List<ActivitiesResponse>> GetByTitle(string title)
         {
             Activities initial = new Activities()
@@ -78,7 +78,7 @@ namespace UniqueTrip.Controllers
         }
 
         // PUT: api/Activities/5
-        [HttpPut("{id}")]
+        [HttpPut("id/{id}")]
         public async Task<IActionResult> Put(int id, [FromBody] ActivitiesRequest activitiesRequest)
         {
             try
@@ -98,7 +98,7 @@ namespace UniqueTrip.Controllers
         }
 
         // DELETE: api/Activities/5
-        [HttpDelete("{id}")]
+        [HttpDelete("id/{id}")]
         public async Task<bool> Delete(int id)
         {
             return await _activitiesDomain.Delete(id);
