@@ -17,49 +17,35 @@ namespace UniqueTrip.Controllers
     [Route("api/v1/[controller]")]
     public class ImagesController : Controller
     {
-        private readonly IActivitiesDomain _activitiesDomain;
-        private readonly IActivitiesData _activitiesData;
+        private readonly IImagesData _imagesData;
+        private readonly IImagesDomain _imagesDomain;
         private readonly IMapper _mapper;
         
-        public ImagesController(IActivitiesDomain activitiesDomain, IActivitiesData activitiesData, IMapper mapper)
+        public ImagesController(IImagesData imagesData, IImagesDomain imagesDomain, IMapper mapper)
         {
-            _activitiesDomain = activitiesDomain;
-            _activitiesData = activitiesData;
+            _imagesData = imagesData;
+            _imagesDomain = imagesDomain;
             _mapper = mapper;
         }
-        // GET: api/Activities
+        
         [HttpGet("all")]
-        public async Task<List<ActivitiesResponse>> GetAll()
+        public async Task<List<ImagesResponse>> GetAll()
         {
-            var response = await _activitiesData.GetAll();
-            var result = _mapper.Map<List<Activities>, List<ActivitiesResponse>>(response);
+            var response = await _imagesData.GetAll();
+            var result = _mapper.Map<List<Images>, List<ImagesResponse>>(response);
             return result;
         }
 
-        // GET: api/Activities/5
         [HttpGet("id/{id}")]
-        public async Task<ActivitiesResponse> GetById(int id)
+        public async Task<ImagesResponse> GetById(int id)
         {
-            var response = await _activitiesData.GetById(id);
-            var result = _mapper.Map<Activities, ActivitiesResponse>(response);
+            var response = await _imagesData.GetById(id);
+            var result = _mapper.Map<Images, ImagesResponse>(response);
             return result;
         }
-
-        // GET: api/Activities/title
-        [HttpGet("title/{title}")]
-        public async Task<List<ActivitiesResponse>> GetByTitle(string title)
-        {
-            Activities initial = new Activities()
-            {
-                Title = title,
-            };
-            var response = await _activitiesData.GetByTitle(initial);
-            var result = _mapper.Map<List<Activities>, List<ActivitiesResponse>>(response);
-            return result;
-        }
-        // POST: api/Activities
+        
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] ActivitiesRequest activitiesRequest)
+        public async Task<IActionResult> Post([FromBody] ImagesRequest request)
         {
             try
             {
@@ -68,8 +54,8 @@ namespace UniqueTrip.Controllers
                     return BadRequest();
                 }
 
-                var result = _mapper.Map<ActivitiesRequest, Activities>(activitiesRequest);
-                return Ok(await _activitiesDomain.Create(result));
+                var result = _mapper.Map<ImagesRequest, Images>(request);
+                return Ok(await _imagesDomain.Create(result));
             }
             catch (Exception e)
             {
@@ -77,9 +63,8 @@ namespace UniqueTrip.Controllers
             }
         }
 
-        // PUT: api/Activities/5
         [HttpPut("id/{id}")]
-        public async Task<IActionResult> Put(int id, [FromBody] ActivitiesRequest activitiesRequest)
+        public async Task<IActionResult> Put(int id, [FromBody] ImagesRequest request)
         {
             try
             {
@@ -88,8 +73,8 @@ namespace UniqueTrip.Controllers
                     return BadRequest();
                 }
 
-                var result = _mapper.Map<ActivitiesRequest, Activities>(activitiesRequest);
-                return Ok(await _activitiesDomain.Update(result, id));
+                var result = _mapper.Map<ImagesRequest, Images>(request);
+                return Ok(await _imagesDomain.Update(result, id));
             }
             catch (Exception e)
             {
@@ -97,11 +82,10 @@ namespace UniqueTrip.Controllers
             }
         }
 
-        // DELETE: api/Activities/5
         [HttpDelete("id/{id}")]
         public async Task<bool> Delete(int id)
         {
-            return await _activitiesDomain.Delete(id);
+            return await _imagesDomain.Delete(id);
         }
     }
 }

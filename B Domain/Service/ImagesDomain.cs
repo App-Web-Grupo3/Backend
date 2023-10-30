@@ -33,7 +33,7 @@ public class ImagesDomain : IImagesDomain
         {
             var result = await _imagesData.GetById(images.Id);
 
-            if (result != null && result.Count == 0)
+            if (result != null)
             {
                 Console.WriteLine("Domain:)");
                 return await _imagesData.Create(images);
@@ -53,7 +53,7 @@ public class ImagesDomain : IImagesDomain
         {
             var result = await _imagesData.GetById(id);
 
-            if (result != null && result.Count == 0)
+            if (result != null)
             {
                 return await _imagesData.Update(images, id);
             }
