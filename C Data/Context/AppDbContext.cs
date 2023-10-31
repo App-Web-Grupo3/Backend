@@ -15,11 +15,13 @@ public class AppDbContext : DbContext
     public DbSet<Representante> Representantes { get; set; }
     public DbSet<Tourist> Tourists { get; set; }
     public DbSet<Answer> Responses { get; set; }
+    public DbSet<Activities> Activities { get; set; }
+    public DbSet<Images> Images { get; set; }
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         var serverVersion = new MySqlServerVersion(new Version(8, 0, 29));
-        optionsBuilder.UseMySql("Server=127.0.0.1,3306;Uid=root;Pwd=12345;Database=uniquetrip;", serverVersion);
+        optionsBuilder.UseMySql("Server=127.0.0.1,3306;Uid=root;Pwd=Admin#123456;Database=uniquetrip;", serverVersion);
     }
 
     protected override void OnModelCreating(ModelBuilder builder)
@@ -52,8 +54,22 @@ public class AppDbContext : DbContext
         builder.Entity<Tourist>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
         builder.Entity<Tourist>().Property(p => p.IsActive).HasDefaultValue(true);
         
+        builder.Entity<Activities>().ToTable("Activities");
+        builder.Entity<Activities>().HasKey(p => p.Id);
+        builder.Entity<Activities>().Property(p => p.Title).IsRequired().HasMaxLength(20);
+        builder.Entity<Activities>().Property(p => p.Description).IsRequired().HasMaxLength(50);
+        builder.Entity<Activities>().Property(p => p.Discount).HasDefaultValue(false);
+        builder.Entity<Activities>().Property(p => p.Percentage).HasDefaultValue(0);
+        builder.Entity<Activities>().Property(p => p.Restriction).HasDefaultValue(false);
+        builder.Entity<Activities>().Property(p => p.people).HasDefaultValue(0);
+        builder.Entity<Activities>().Property(p => p.Price).HasDefaultValue(0);
+        builder.Entity<Activities>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
+        builder.Entity<Activities>().Property(p => p.IsActive).HasDefaultValue(true);
 
-
+        builder.Entity<Images>().ToTable("Images");
+        builder.Entity<Images>().HasKey(p => p.Id);
+        builder.Entity<Images>().Property(p => p.Url).IsRequired().HasMaxLength(50);
+        builder.Entity<Images>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
+        builder.Entity<Images>().Property(p => p.IsActive).HasDefaultValue(true);
     }
-
 }
