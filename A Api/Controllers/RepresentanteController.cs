@@ -39,9 +39,9 @@ public class RepresentanteController: ControllerBase
     {
         try
         {
-            if (!ModelState.IsValid)
+            if (resource.Telefono.Length > 9)
             {
-                return BadRequest();
+                return BadRequest(new { Message = "The phone number cannot be longer than 9 characters" });
             }
 
             var representante = _mapper.Map<RepresentanteRequest, Representante>(resource);
