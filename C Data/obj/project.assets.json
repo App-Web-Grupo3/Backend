@@ -815,51 +815,26 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\alyne\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
-=======
-    "C:\\Users\\Jack\\.nuget\\packages\\": {}
->>>>>>> 51f7b5c4ca5da387850851543996d10ab666d161
+    "C:\\Users\\JORGE\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Backend github\\Backend\\C Data\\C Data.csproj",
+      "projectUniqueName": "C:\\GithubProjects\\Backend\\C Data\\C Data.csproj",
       "projectName": "C Data",
-      "projectPath": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Backend github\\Backend\\C Data\\C Data.csproj",
-      "packagesPath": "C:\\Users\\alyne\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Backend github\\Backend\\C Data\\obj\\",
-=======
-      "projectUniqueName": "C:\\Development\\UPC\\AppsWeb\\Backend\\C Data\\C Data.csproj",
-      "projectName": "C Data",
-      "projectPath": "C:\\Development\\UPC\\AppsWeb\\Backend\\C Data\\C Data.csproj",
-      "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\UPC\\AppsWeb\\Backend\\C Data\\obj\\",
->>>>>>> 51f7b5c4ca5da387850851543996d10ab666d161
+      "projectPath": "C:\\GithubProjects\\Backend\\C Data\\C Data.csproj",
+      "packagesPath": "C:\\Users\\JORGE\\.nuget\\packages\\",
+      "outputPath": "C:\\GithubProjects\\Backend\\C Data\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\alyne\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\JORGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-=======
-        "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 51f7b5c4ca5da387850851543996d10ab666d161
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-<<<<<<< HEAD
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-=======
->>>>>>> 51f7b5c4ca5da387850851543996d10ab666d161
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -915,11 +890,7 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Users\\Jack\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
->>>>>>> 51f7b5c4ca5da387850851543996d10ab666d161
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.310\\RuntimeIdentifierGraph.json"
       }
     }
   }

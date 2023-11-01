@@ -24,4 +24,9 @@
         </PackageReference>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\B Domain\B Domain.csproj" />
+      <ProjectReference Include="..\C Data\C Data.csproj" />
+    </ItemGroup>
+
 </Project>

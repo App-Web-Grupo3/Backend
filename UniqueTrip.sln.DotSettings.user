@@ -1,14 +1,14 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5c17d342_002Decec_002D44be_002D818d_002D9b941d9a2c35/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PostAsyncTest_ReturnsBadRequest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::4112383C-47A3-450F-8282-1902D7520989::net7.0::RepresentanteControllerTest.PostAsyncTest_ReturnsBadRequest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::4112383C-47A3-450F-8282-1902D7520989::net7.0::RepresentanteControllerTest.GetByIdTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::4112383C-47A3-450F-8282-1902D7520989::net7.0::RepresentanteControllerTest.PostAsyncTest_ReturnsOk&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5c17d342_002Decec_002D44be_002D818d_002D9b941d9a2c35/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PostAsyncTest_ReturnsBadRequest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;ProjectFile&gt;4112383C-47A3-450F-8282-1902D7520989/d:Controllers/f:RepresentanteController.cs&lt;/ProjectFile&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bc30a08b_002D64cd_002D4d31_002D88ca_002Da3bd81cad539/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PostAsyncTest_ReturnsOk" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::4112383C-47A3-450F-8282-1902D7520989::net7.0::RepresentanteControllerTest.PostAsyncTest_ReturnsOk&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::4112383C-47A3-450F-8282-1902D7520989::net7.0::RepresentanteControllerTest.PostAsyncTest_ReturnsBadRequest&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bc30a08b_002D64cd_002D4d31_002D88ca_002Da3bd81cad539/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PostAsyncTest_ReturnsOk" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::4112383C-47A3-450F-8282-1902D7520989::net7.0::RepresentanteControllerTest.PostAsyncTest_ReturnsOk&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::4112383C-47A3-450F-8282-1902D7520989::net7.0::RepresentanteControllerTest.PostAsyncTest_ReturnsBadRequest&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;ProjectFile&gt;4112383C-47A3-450F-8282-1902D7520989/d:Controllers/f:TouristController.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;E6A19248-0D1F-4736-827B-689FA4375EC7/d:ServiceTest/f:TouristDomainTest.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

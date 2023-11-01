@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = C_Data.UnitTest
-build_property.ProjectDir = C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\Backend\C Data.UnitTest\
+build_property.ProjectDir = C:\GithubProjects\Backend\C Data.UnitTest\

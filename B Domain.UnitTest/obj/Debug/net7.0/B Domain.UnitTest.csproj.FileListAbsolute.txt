@@ -1,0 +1,125 @@
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\CoverletSourceRootsMapping
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\testhost.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\testhost.exe
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\xunit.runner.reporters.netcoreapp10.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\xunit.runner.utility.netcoreapp10.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\B Domain.UnitTest.deps.json
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\B Domain.UnitTest.runtimeconfig.json
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\B Domain.UnitTest.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\B Domain.UnitTest.pdb
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\AutoMapper.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Castle.Core.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Microsoft.Extensions.Caching.Memory.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Microsoft.TestPlatform.Utilities.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\MySqlConnector.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\NSubstitute.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\NuGet.Frameworks.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\System.Diagnostics.EventLog.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\xunit.abstractions.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\xunit.assert.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\xunit.core.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\xunit.execution.dotnet.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\B Domain.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\C Data.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\B Domain.pdb
+C:\GithubProjects\Backend\B Domain.UnitTest\bin\Debug\net7.0\C Data.pdb
+C:\GithubProjects\Backend\B Domain.UnitTest\obj\Debug\net7.0\B Domain.UnitTest.csproj.AssemblyReference.cache
+C:\GithubProjects\Backend\B Domain.UnitTest\obj\Debug\net7.0\B Domain.UnitTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\GithubProjects\Backend\B Domain.UnitTest\obj\Debug\net7.0\B Domain.UnitTest.AssemblyInfoInputs.cache
+C:\GithubProjects\Backend\B Domain.UnitTest\obj\Debug\net7.0\B Domain.UnitTest.AssemblyInfo.cs
+C:\GithubProjects\Backend\B Domain.UnitTest\obj\Debug\net7.0\B Domain.UnitTest.csproj.CoreCompileInputs.cache
+C:\GithubProjects\Backend\B Domain.UnitTest\obj\Debug\net7.0\B Domain.UnitTest.csproj.CopyComplete
+C:\GithubProjects\Backend\B Domain.UnitTest\obj\Debug\net7.0\B Domain.UnitTest.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\obj\Debug\net7.0\refint\B Domain.UnitTest.dll
+C:\GithubProjects\Backend\B Domain.UnitTest\obj\Debug\net7.0\B Domain.UnitTest.pdb
+C:\GithubProjects\Backend\B Domain.UnitTest\obj\Debug\net7.0\B Domain.UnitTest.genruntimeconfig.cache
+C:\GithubProjects\Backend\B Domain.UnitTest\obj\Debug\net7.0\ref\B Domain.UnitTest.dll

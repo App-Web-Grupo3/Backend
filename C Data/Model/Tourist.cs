@@ -7,5 +7,5 @@ public class Tourist : Base
     public string? Mail { get; set; }
     public string? Password { get; set; }
     public string Phone { get; set; }
-    public List<Comment> Comments { get; set; }
+    public List<Comment>? Comments { get; set; }
 }
