@@ -23,6 +23,10 @@ builder.Services.AddScoped<ITouristDomain, TouristDomain>();
 builder.Services.AddScoped<ITouristData, TouristData>();
 builder.Services.AddScoped<IResponseDomain, ResponseDomain>();
 builder.Services.AddScoped<IResponseData, ResponseData>();
+builder.Services.AddScoped<IActivitiesDomain, ActivitiesDomain>();
+builder.Services.AddScoped<IActivitiesData, ActivitiesData>();
+builder.Services.AddScoped<IImagesDomain, ImagesDomain>();
+builder.Services.AddScoped<IImagesData, ImagesData>();
 
 var connectionString = builder.Configuration.GetConnectionString("Conection");
 
