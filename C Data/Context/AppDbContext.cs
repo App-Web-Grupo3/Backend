@@ -17,6 +17,8 @@ public class AppDbContext : DbContext
     public DbSet<Answer> Responses { get; set; }
     public DbSet<Activities> Activities { get; set; }
     public DbSet<Images> Images { get; set; }
+    public DbSet<Company> Companies { get; set; }
+    public DbSet<Favorites> Favorites { get; set; }
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
@@ -73,5 +75,21 @@ public class AppDbContext : DbContext
         builder.Entity<Images>().Property(p => p.Url).IsRequired().HasMaxLength(50);
         builder.Entity<Images>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
         builder.Entity<Images>().Property(p => p.IsActive).HasDefaultValue(true);
+        
+        builder.Entity<Favorites>().ToTable("Favorites");
+        builder.Entity<Favorites>().HasKey(p => p.Id);
+        builder.Entity<Favorites>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
+        builder.Entity<Favorites>().Property(p => p.IsActive).HasDefaultValue(true);
+        
+        builder.Entity<Company>().ToTable("Companies");
+        builder.Entity<Company>().HasKey(p => p.Id);
+        builder.Entity<Company>().Property(p => p.Name).IsRequired().HasMaxLength(20);
+        builder.Entity<Company>().Property(p => p.Mail).IsRequired().HasMaxLength(20);
+        builder.Entity<Company>().Property(p => p.Description).IsRequired().HasMaxLength(50);
+        builder.Entity<Company>().Property(p => p.Ruc).IsRequired().HasMaxLength(9);
+        builder.Entity<Company>().Property(p => p.Phone).IsRequired().HasMaxLength(9);
+        builder.Entity<Company>().Property(p => p.Address).IsRequired().HasMaxLength(50);
+        builder.Entity<Company>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
+        builder.Entity<Company>().Property(p => p.IsActive).HasDefaultValue(true);
     }
 }

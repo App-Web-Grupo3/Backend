@@ -11931,19 +11931,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JORGE\\.nuget\\packages\\": {}
+    "C:\\Users\\RICARDO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GithubProjects\\Backend\\A Api.UnitTest\\A Api.UnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\RICARDO\\Desktop\\Backend\\A Api.UnitTest\\A Api.UnitTest.csproj",
       "projectName": "A Api.UnitTest",
-      "projectPath": "C:\\GithubProjects\\Backend\\A Api.UnitTest\\A Api.UnitTest.csproj",
-      "packagesPath": "C:\\Users\\JORGE\\.nuget\\packages\\",
-      "outputPath": "C:\\GithubProjects\\Backend\\A Api.UnitTest\\obj\\",
+      "projectPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\A Api.UnitTest\\A Api.UnitTest.csproj",
+      "packagesPath": "C:\\Users\\RICARDO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\A Api.UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JORGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RICARDO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11957,11 +11957,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\GithubProjects\\Backend\\A Api\\A Api.csproj": {
-              "projectPath": "C:\\GithubProjects\\Backend\\A Api\\A Api.csproj"
+            "C:\\Users\\RICARDO\\Desktop\\Backend\\A Api\\A Api.csproj": {
+              "projectPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\A Api\\A Api.csproj"
             },
-            "C:\\GithubProjects\\Backend\\B Domain\\B Domain.csproj": {
-              "projectPath": "C:\\GithubProjects\\Backend\\B Domain\\B Domain.csproj"
+            "C:\\Users\\RICARDO\\Desktop\\Backend\\B Domain\\B Domain.csproj": {
+              "projectPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\B Domain\\B Domain.csproj"
             }
           }
         }
@@ -12025,7 +12025,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.310\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
       }
     }
   }

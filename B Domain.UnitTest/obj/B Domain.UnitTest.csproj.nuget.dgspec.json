@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GithubProjects\\Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj": {}
+    "C:\\Users\\RICARDO\\Desktop\\Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\GithubProjects\\Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj": {
+    "C:\\Users\\RICARDO\\Desktop\\Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GithubProjects\\Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\RICARDO\\Desktop\\Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj",
         "projectName": "B Domain.UnitTest",
-        "projectPath": "C:\\GithubProjects\\Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj",
-        "packagesPath": "C:\\Users\\JORGE\\.nuget\\packages\\",
-        "outputPath": "C:\\GithubProjects\\Backend\\B Domain.UnitTest\\obj\\",
+        "projectPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\RICARDO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\B Domain.UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\JORGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RICARDO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\GithubProjects\\Backend\\B Domain\\B Domain.csproj": {
-                "projectPath": "C:\\GithubProjects\\Backend\\B Domain\\B Domain.csproj"
+              "C:\\Users\\RICARDO\\Desktop\\Backend\\B Domain\\B Domain.csproj": {
+                "projectPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\B Domain\\B Domain.csproj"
               },
-              "C:\\GithubProjects\\Backend\\C Data\\C Data.csproj": {
-                "projectPath": "C:\\GithubProjects\\Backend\\C Data\\C Data.csproj"
+              "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\C Data.csproj": {
+                "projectPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\C Data.csproj"
               }
             }
           }
@@ -88,21 +88,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\GithubProjects\\Backend\\B Domain\\B Domain.csproj": {
+    "C:\\Users\\RICARDO\\Desktop\\Backend\\B Domain\\B Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GithubProjects\\Backend\\B Domain\\B Domain.csproj",
+        "projectUniqueName": "C:\\Users\\RICARDO\\Desktop\\Backend\\B Domain\\B Domain.csproj",
         "projectName": "B Domain",
-        "projectPath": "C:\\GithubProjects\\Backend\\B Domain\\B Domain.csproj",
-        "packagesPath": "C:\\Users\\JORGE\\.nuget\\packages\\",
-        "outputPath": "C:\\GithubProjects\\Backend\\B Domain\\obj\\",
+        "projectPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\B Domain\\B Domain.csproj",
+        "packagesPath": "C:\\Users\\RICARDO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\B Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\JORGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RICARDO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -116,8 +116,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\GithubProjects\\Backend\\C Data\\C Data.csproj": {
-                "projectPath": "C:\\GithubProjects\\Backend\\C Data\\C Data.csproj"
+              "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\C Data.csproj": {
+                "projectPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\C Data.csproj"
               }
             }
           }
@@ -147,21 +147,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\GithubProjects\\Backend\\C Data\\C Data.csproj": {
+    "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\C Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GithubProjects\\Backend\\C Data\\C Data.csproj",
+        "projectUniqueName": "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\C Data.csproj",
         "projectName": "C Data",
-        "projectPath": "C:\\GithubProjects\\Backend\\C Data\\C Data.csproj",
-        "packagesPath": "C:\\Users\\JORGE\\.nuget\\packages\\",
-        "outputPath": "C:\\GithubProjects\\Backend\\C Data\\obj\\",
+        "projectPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\C Data.csproj",
+        "packagesPath": "C:\\Users\\RICARDO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\JORGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RICARDO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -224,7 +224,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     }
