@@ -1,4 +1,5 @@
 using Data.Context;
+using Data.Model;
 using Data.Persistencia;
 using Data.Persistencia.Impl;
 using Domain.Service;
@@ -25,6 +26,9 @@ builder.Services.AddScoped<IResponseDomain, ResponseDomain>();
 builder.Services.AddScoped<IResponseData, ResponseData>();
 builder.Services.AddScoped<ICompanyDomain, CompanyDomain>();
 builder.Services.AddScoped<ICompanyData, CompanyData>();
+builder.Services.AddScoped<IFavoritesDomain, FavoritesDomain>();
+
+//Conexion to MySQL
 
 var connectionString = builder.Configuration.GetConnectionString("Conection");
 

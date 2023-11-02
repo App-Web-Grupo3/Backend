@@ -16,6 +16,7 @@ public class AppDbContext : DbContext
     public DbSet<Tourist> Tourists { get; set; }
     public DbSet<Answer> Responses { get; set; }
     public DbSet<Company> Companies { get; set; }
+    public DbSet<Favorites> Favorites { get; set; }
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
@@ -64,9 +65,11 @@ public class AppDbContext : DbContext
         builder.Entity<Company>().Property(p=>p.ProfilePicture).IsRequired().HasMaxLength(100);
         builder.Entity<Company>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
         builder.Entity<Company>().Property(p => p.IsActive).HasDefaultValue(true);
-        
 
-
+        builder.Entity<Favorites>().ToTable("Favorites");
+        builder.Entity<Favorites>().HasKey(p => p.Id);
+        builder.Entity<Company>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
+        builder.Entity<Company>().Property(p => p.IsActive).HasDefaultValue(true);
     }
 
 }

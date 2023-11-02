@@ -815,19 +815,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JORGE\\.nuget\\packages\\": {}
+    "C:\\Users\\RICARDO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GithubProjects\\Backend\\C Data\\C Data.csproj",
+      "projectUniqueName": "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\C Data.csproj",
       "projectName": "C Data",
-      "projectPath": "C:\\GithubProjects\\Backend\\C Data\\C Data.csproj",
-      "packagesPath": "C:\\Users\\JORGE\\.nuget\\packages\\",
-      "outputPath": "C:\\GithubProjects\\Backend\\C Data\\obj\\",
+      "projectPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\C Data.csproj",
+      "packagesPath": "C:\\Users\\RICARDO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JORGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RICARDO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -890,7 +890,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.310\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
       }
     }
   }

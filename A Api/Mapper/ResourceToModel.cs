@@ -12,5 +12,6 @@ public class ResourceToModel : Profile
         CreateMap<TouristRequest, Tourist>();
         CreateMap<ResponseRequest, Answer>();
         CreateMap<CompanyRequest, Company>();
+        CreateMap<FavoritesRequest, Favorites>();
     }
 }

@@ -17,6 +17,8 @@ public class ModelToResource : Profile
         CreateMap<Answer, ResResponse>();
         CreateMap<Company, CompanyRequest>();
         CreateMap<Company, CompanyResponse>();
+        CreateMap<Favorites, FavoritesRequest >();
+        CreateMap<Favorites, FavoritesResponse>();
     }
     
 }
