@@ -19,6 +19,7 @@ public class AppDbContext : DbContext
     public DbSet<Images> Images { get; set; }
     public DbSet<Company> Companies { get; set; }
     public DbSet<Favorites> Favorites { get; set; }
+    public DbSet<PaymentMethod> PaymentMethod { get; set; }
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
@@ -65,7 +66,7 @@ public class AppDbContext : DbContext
         builder.Entity<Activities>().Property(p => p.Discount).HasDefaultValue(false);
         builder.Entity<Activities>().Property(p => p.Percentage).HasDefaultValue(0);
         builder.Entity<Activities>().Property(p => p.Restriction).HasDefaultValue(false);
-        builder.Entity<Activities>().Property(p => p.people).HasDefaultValue(0);
+        builder.Entity<Activities>().Property(p => p.People).HasDefaultValue(0);
         builder.Entity<Activities>().Property(p => p.Price).HasDefaultValue(0);
         builder.Entity<Activities>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
         builder.Entity<Activities>().Property(p => p.IsActive).HasDefaultValue(true);
@@ -78,8 +79,23 @@ public class AppDbContext : DbContext
         
         builder.Entity<Favorites>().ToTable("Favorites");
         builder.Entity<Favorites>().HasKey(p => p.Id);
+        builder.Entity<Favorites>().HasOne(p => p.Tourist)
+            .WithOne(p => p.Favorites);
+        builder.Entity<Favorites>().HasOne(p => p.Activities)
+            .WithOne(p => p.Favorites);
         builder.Entity<Favorites>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
         builder.Entity<Favorites>().Property(p => p.IsActive).HasDefaultValue(true);
+
+
+        builder.Entity<PaymentMethod>().ToTable("PaymentMethod");
+        builder.Entity<PaymentMethod>().HasKey(p => p.Id);
+        builder.Entity<PaymentMethod>().Property(p => p.CardNumber).IsRequired().HasMaxLength(16);
+        builder.Entity<PaymentMethod>().Property(p => p.AccountHolderName).IsRequired().HasMaxLength(50);
+        builder.Entity<PaymentMethod>().Property(p => p.Month).IsRequired().HasMaxLength(2);
+        builder.Entity<PaymentMethod>().Property(p=>p.Year).IsRequired().HasMaxLength(4);
+        builder.Entity<PaymentMethod>().Property(p => p.CVC).IsRequired().HasMaxLength(4);
+        builder.Entity<PaymentMethod>().HasOne(p => p.Tourist)
+            .WithMany(p => p.PaymentMethod);
         
         builder.Entity<Company>().ToTable("Companies");
         builder.Entity<Company>().HasKey(p => p.Id);

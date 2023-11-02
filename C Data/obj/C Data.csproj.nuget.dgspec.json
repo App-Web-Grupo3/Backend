@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\C Data.csproj": {}
+    "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\C Data.csproj": {
+    "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\C Data.csproj",
+        "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj",
         "projectName": "C Data",
-        "projectPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\C Data.csproj",
-        "packagesPath": "C:\\Users\\RICARDO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\obj\\",
+        "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj",
+        "packagesPath": "C:\\Users\\CARLIÑO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\RICARDO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\CARLIÑO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

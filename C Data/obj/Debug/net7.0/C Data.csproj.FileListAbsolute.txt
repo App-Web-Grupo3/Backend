@@ -58,3 +58,15 @@ C:\Users\RICARDO\Desktop\Backend\C Data\obj\Debug\net7.0\C Data.dll
 C:\Users\RICARDO\Desktop\Backend\C Data\obj\Debug\net7.0\refint\C Data.dll
 C:\Users\RICARDO\Desktop\Backend\C Data\obj\Debug\net7.0\C Data.pdb
 C:\Users\RICARDO\Desktop\Backend\C Data\obj\Debug\net7.0\ref\C Data.dll
+C:\Users\CARLIÑO\Desktop\Backend\C Data\bin\Debug\net7.0\C Data.deps.json
+C:\Users\CARLIÑO\Desktop\Backend\C Data\bin\Debug\net7.0\C Data.dll
+C:\Users\CARLIÑO\Desktop\Backend\C Data\bin\Debug\net7.0\C Data.pdb
+C:\Users\CARLIÑO\Desktop\Backend\C Data\obj\Debug\net7.0\C Data.csproj.AssemblyReference.cache
+C:\Users\CARLIÑO\Desktop\Backend\C Data\obj\Debug\net7.0\C Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CARLIÑO\Desktop\Backend\C Data\obj\Debug\net7.0\C Data.AssemblyInfoInputs.cache
+C:\Users\CARLIÑO\Desktop\Backend\C Data\obj\Debug\net7.0\C Data.AssemblyInfo.cs
+C:\Users\CARLIÑO\Desktop\Backend\C Data\obj\Debug\net7.0\C Data.csproj.CoreCompileInputs.cache
+C:\Users\CARLIÑO\Desktop\Backend\C Data\obj\Debug\net7.0\C Data.dll
+C:\Users\CARLIÑO\Desktop\Backend\C Data\obj\Debug\net7.0\refint\C Data.dll
+C:\Users\CARLIÑO\Desktop\Backend\C Data\obj\Debug\net7.0\C Data.pdb
+C:\Users\CARLIÑO\Desktop\Backend\C Data\obj\Debug\net7.0\ref\C Data.dll
