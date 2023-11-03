@@ -34,7 +34,7 @@ namespace UniqueTrip.Controllers
         }
 
         // GET: api/Favorites/5
-        [HttpGet("{id}", Name = "GetById")]
+        [HttpGet("{id}")]
         public async Task<FavoritesResponse> GetById(int id)
         {
             var favorites = await _favoritesData.GetById(id);

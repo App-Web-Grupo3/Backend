@@ -114,5 +114,7 @@ namespace UniqueTrip.Controllers
         {
             return await _touristDomain.Delete(id);
         }
+
+     
     }
 }

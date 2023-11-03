@@ -1,38 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RICARDO\\Desktop\\Backend\\A Api.UnitTest\\A Api.UnitTest.csproj": {}
+    "C:\\Users\\CARLIÑO\\Desktop\\Backend\\A Api.UnitTest\\A Api.UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RICARDO\\Desktop\\Backend\\A Api.UnitTest\\A Api.UnitTest.csproj": {
+    "C:\\Users\\CARLIÑO\\Desktop\\Backend\\A Api.UnitTest\\A Api.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RICARDO\\Desktop\\Backend\\A Api.UnitTest\\A Api.UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\A Api.UnitTest\\A Api.UnitTest.csproj",
         "projectName": "A Api.UnitTest",
-        "projectPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\A Api.UnitTest\\A Api.UnitTest.csproj",
-        "packagesPath": "C:\\Users\\RICARDO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\A Api.UnitTest\\obj\\",
+        "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\A Api.UnitTest\\A Api.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\CARLIÑO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\A Api.UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\RICARDO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\CARLIÑO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\RICARDO\\Desktop\\Backend\\A Api\\A Api.csproj": {
-                "projectPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\A Api\\A Api.csproj"
+              "C:\\Users\\CARLIÑO\\Desktop\\Backend\\A Api\\A Api.csproj": {
+                "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\A Api\\A Api.csproj"
               },
-              "C:\\Users\\RICARDO\\Desktop\\Backend\\B Domain\\B Domain.csproj": {
-                "projectPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\B Domain\\B Domain.csproj"
+              "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain\\B Domain.csproj": {
+                "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain\\B Domain.csproj"
               }
             }
           }
@@ -100,24 +98,22 @@
         }
       }
     },
-    "C:\\Users\\RICARDO\\Desktop\\Backend\\A Api\\A Api.csproj": {
+    "C:\\Users\\CARLIÑO\\Desktop\\Backend\\A Api\\A Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RICARDO\\Desktop\\Backend\\A Api\\A Api.csproj",
+        "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\A Api\\A Api.csproj",
         "projectName": "A Api",
-        "projectPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\A Api\\A Api.csproj",
-        "packagesPath": "C:\\Users\\RICARDO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\A Api\\obj\\",
+        "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\A Api\\A Api.csproj",
+        "packagesPath": "C:\\Users\\CARLIÑO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\A Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\RICARDO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\CARLIÑO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -125,11 +121,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\RICARDO\\Desktop\\Backend\\B Domain\\B Domain.csproj": {
-                "projectPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\B Domain\\B Domain.csproj"
+              "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain\\B Domain.csproj": {
+                "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain\\B Domain.csproj"
               },
-              "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\C Data.csproj": {
-                "projectPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\C Data.csproj"
+              "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj": {
+                "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj"
               }
             }
           }
@@ -192,32 +188,30 @@
         }
       }
     },
-    "C:\\Users\\RICARDO\\Desktop\\Backend\\B Domain\\B Domain.csproj": {
+    "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain\\B Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RICARDO\\Desktop\\Backend\\B Domain\\B Domain.csproj",
+        "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain\\B Domain.csproj",
         "projectName": "B Domain",
-        "projectPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\B Domain\\B Domain.csproj",
-        "packagesPath": "C:\\Users\\RICARDO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\B Domain\\obj\\",
+        "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain\\B Domain.csproj",
+        "packagesPath": "C:\\Users\\CARLIÑO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\RICARDO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\CARLIÑO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\C Data.csproj": {
-                "projectPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\C Data.csproj"
+              "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj": {
+                "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj"
               }
             }
           }
@@ -251,24 +245,22 @@
         }
       }
     },
-    "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\C Data.csproj": {
+    "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\C Data.csproj",
+        "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj",
         "projectName": "C Data",
-        "projectPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\C Data.csproj",
-        "packagesPath": "C:\\Users\\RICARDO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RICARDO\\Desktop\\Backend\\C Data\\obj\\",
+        "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj",
+        "packagesPath": "C:\\Users\\CARLIÑO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\RICARDO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\CARLIÑO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
