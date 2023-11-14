@@ -23,8 +23,8 @@ public class AppDbContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
 
-        var serverVersion = new MySqlServerVersion(new Version(8, 0, 29));
-        optionsBuilder.UseMySql("Server=127.0.0.1,3306;Uid=root;Pwd=Admin#123456;Database=uniquetrip;", serverVersion);
+        var serverVersion = new MySqlServerVersion(new Version(8, 0, 33));
+        optionsBuilder.UseMySql("Server=127.0.0.1,3306;Uid=root;Pwd=c0mpl1ces;Database=uniquetrip;", serverVersion);
 
     }
 
@@ -69,6 +69,10 @@ public class AppDbContext : DbContext
         builder.Entity<Activities>().Property(p => p.Price).HasDefaultValue(0);
         builder.Entity<Activities>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
         builder.Entity<Activities>().Property(p => p.IsActive).HasDefaultValue(true);
+        builder.Entity<Activities>()
+            .HasMany(a => a.Images)
+            .WithOne(i => i.Activities)
+            .HasForeignKey(i => i.ActivitiesId);
 
         builder.Entity<Images>().ToTable("Images");
         builder.Entity<Images>().HasKey(p => p.Id);
@@ -86,10 +90,20 @@ public class AppDbContext : DbContext
         builder.Entity<Company>().Property(p => p.Name).IsRequired().HasMaxLength(20);
         builder.Entity<Company>().Property(p => p.Mail).IsRequired().HasMaxLength(20);
         builder.Entity<Company>().Property(p => p.Description).IsRequired().HasMaxLength(50);
-        builder.Entity<Company>().Property(p => p.Ruc).IsRequired().HasMaxLength(9);
+        builder.Entity<Company>().Property(p => p.Ruc).IsRequired().HasMaxLength(11);
         builder.Entity<Company>().Property(p => p.Phone).IsRequired().HasMaxLength(9);
         builder.Entity<Company>().Property(p => p.Address).IsRequired().HasMaxLength(50);
         builder.Entity<Company>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
         builder.Entity<Company>().Property(p => p.IsActive).HasDefaultValue(true);
+        //relacion
+        builder.Entity<Company>()
+            .HasOne(c => c.Representante)
+            .WithOne(r => r.Company)
+            .HasForeignKey<Company>(c => c.RepresentanteId);
+        
+        builder.Entity<Company>()
+            .HasMany(c => c.Activities)
+            .WithOne(a => a.Company)
+            .HasForeignKey(a => a.CompanyId);
     }
 }

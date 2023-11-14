@@ -21,13 +21,17 @@ public class ActivitiesData : IActivitiesData
 
     public async Task<List<Activities>> GetByTitle(Activities activity)
     {
-        return await _appDbContext.Activities.Where(a => a.Title.Contains(activity.Title) && a.IsActive == true)
+        return await _appDbContext.Activities
+            .Include(c => c.Company)
+            .Where(a => a.Title.Contains(activity.Title) && a.IsActive == true)
             .ToListAsync();
     }
 
     public async Task<List<Activities>> GetAll()
     {
-        return await _appDbContext.Activities.Where(r => r.IsActive == true).ToListAsync();
+        return await _appDbContext.Activities
+            .Include(c => c.Company)
+            .Where(r => r.IsActive == true).ToListAsync();
 
     }
 

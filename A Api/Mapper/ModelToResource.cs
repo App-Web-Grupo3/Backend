@@ -19,6 +19,9 @@ public class ModelToResource : Profile
         CreateMap<Activities, ActivitiesResponse>();
         CreateMap<Images, ImagesRequest>();
         CreateMap<Images, ImagesResponse>();
+
+        CreateMap<Company, CompanyRequest>();
+        CreateMap<Company, CompanyResponse>();
     }
     
 }

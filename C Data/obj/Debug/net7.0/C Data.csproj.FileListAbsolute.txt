@@ -70,3 +70,15 @@ C:\Users\CARLIÑO\Desktop\Backend\C Data\obj\Debug\net7.0\C Data.dll
 C:\Users\CARLIÑO\Desktop\Backend\C Data\obj\Debug\net7.0\refint\C Data.dll
 C:\Users\CARLIÑO\Desktop\Backend\C Data\obj\Debug\net7.0\C Data.pdb
 C:\Users\CARLIÑO\Desktop\Backend\C Data\obj\Debug\net7.0\ref\C Data.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\C Data\bin\Debug\net7.0\C Data.deps.json
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\C Data\bin\Debug\net7.0\C Data.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\C Data\bin\Debug\net7.0\C Data.pdb
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\C Data\obj\Debug\net7.0\C Data.csproj.AssemblyReference.cache
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\C Data\obj\Debug\net7.0\C Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\C Data\obj\Debug\net7.0\C Data.AssemblyInfoInputs.cache
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\C Data\obj\Debug\net7.0\C Data.AssemblyInfo.cs
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\C Data\obj\Debug\net7.0\C Data.csproj.CoreCompileInputs.cache
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\C Data\obj\Debug\net7.0\C Data.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\C Data\obj\Debug\net7.0\refint\C Data.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\C Data\obj\Debug\net7.0\C Data.pdb
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\C Data\obj\Debug\net7.0\ref\C Data.dll

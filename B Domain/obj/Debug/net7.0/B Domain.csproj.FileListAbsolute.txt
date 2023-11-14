@@ -88,3 +88,18 @@ C:\Users\CARLIÑO\Desktop\Backend\B Domain\obj\Debug\net7.0\B Domain.dll
 C:\Users\CARLIÑO\Desktop\Backend\B Domain\obj\Debug\net7.0\refint\B Domain.dll
 C:\Users\CARLIÑO\Desktop\Backend\B Domain\obj\Debug\net7.0\B Domain.pdb
 C:\Users\CARLIÑO\Desktop\Backend\B Domain\obj\Debug\net7.0\ref\B Domain.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\B Domain\bin\Debug\net7.0\B Domain.deps.json
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\B Domain\bin\Debug\net7.0\B Domain.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\B Domain\bin\Debug\net7.0\B Domain.pdb
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\B Domain\bin\Debug\net7.0\C Data.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\B Domain\bin\Debug\net7.0\C Data.pdb
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\B Domain\obj\Debug\net7.0\B Domain.csproj.AssemblyReference.cache
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\B Domain\obj\Debug\net7.0\B Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\B Domain\obj\Debug\net7.0\B Domain.AssemblyInfoInputs.cache
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\B Domain\obj\Debug\net7.0\B Domain.AssemblyInfo.cs
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\B Domain\obj\Debug\net7.0\B Domain.csproj.CoreCompileInputs.cache
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\B Domain\obj\Debug\net7.0\B Domain.csproj.CopyComplete
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\B Domain\obj\Debug\net7.0\B Domain.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\B Domain\obj\Debug\net7.0\refint\B Domain.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\B Domain\obj\Debug\net7.0\B Domain.pdb
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Backend github\WebService-Backend\B Domain\obj\Debug\net7.0\ref\B Domain.dll

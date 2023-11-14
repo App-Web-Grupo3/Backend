@@ -1,4 +1,6 @@
-﻿namespace Data.Model;
+﻿using System.Text.Json.Serialization;
+
+namespace Data.Model;
 
 public class Company : Base 
 {
@@ -9,7 +11,11 @@ public class Company : Base
     public string? Phone { get; set; }
     public string? Address { get; set; }
     public string? ProfilePicture { get; set; }
+    
     public int RepresentanteId { get; set; }
+    [JsonIgnore]
     public Representante Representante { get; set; }
-    public List<Answer> Responses { get; set; }
+    [JsonIgnore]
+    public List<Activities> Activities { get; set; }
+   
 }

@@ -21,19 +21,28 @@ public class CompanyData : ICompanyData
 
     public async Task<List<Company>> GetByName(Company company)
     {
-        return await _appDbContext.Companies.Where(c => c.Name.Contains(company.Name)
-                                                       && c.IsActive == true).ToListAsync();
+        return await _appDbContext.Companies
+            .Include(c => c.Representante)
+            .Where(c => c.Name.Contains(company.Name)
+                                                       && c.IsActive == true)
+            .ToListAsync();
     }
 
     public async Task<List<Company>> GetAll()
     {
-        return await _appDbContext.Companies.Where(c => c.IsActive == true).ToListAsync();
+        return await _appDbContext.Companies
+            .Include(c => c.Representante)
+            .Where(c => c.IsActive == true)
+            .ToListAsync();
     }
 
     public async Task<List<Company>> GetByRuc(Company company)
     {
-        return await _appDbContext.Companies.Where(c => c.Ruc.Contains(company.Ruc)
-                                                       && c.IsActive == true).ToListAsync();
+        return await _appDbContext.Companies
+            .Include(c => c.Representante)
+            .Where(c => c.Ruc.Contains(company.Ruc)
+                                                        && c.IsActive == true)
+            .ToListAsync();
     }
 
     public async Task<bool> Create(Company company)

@@ -28,6 +28,11 @@ builder.Services.AddScoped<IActivitiesData, ActivitiesData>();
 builder.Services.AddScoped<IImagesDomain, ImagesDomain>();
 builder.Services.AddScoped<IImagesData, ImagesData>();
 
+//UPDATE
+builder.Services.AddScoped<ICompanyDomain, CompanyDomain>();
+builder.Services.AddScoped<ICompanyData, CompanyData>();
+
+
 var connectionString = builder.Configuration.GetConnectionString("Conection");
 
 builder.Services.AddDbContext<AppDbContext>(
