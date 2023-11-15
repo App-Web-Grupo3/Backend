@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj": {}
+    "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj": {
+    "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj",
         "projectName": "B Domain.UnitTest",
-        "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj",
+        "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj",
         "packagesPath": "C:\\Users\\CARLIÑO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain.UnitTest\\obj\\",
+        "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain.UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CARLIÑO\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain\\B Domain.csproj": {
-                "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain\\B Domain.csproj"
+              "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain\\B Domain.csproj": {
+                "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain\\B Domain.csproj"
               },
-              "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj": {
-                "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj"
+              "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj": {
+                "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj"
               }
             }
           }
@@ -90,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain\\B Domain.csproj": {
+    "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain\\B Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain\\B Domain.csproj",
+        "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain\\B Domain.csproj",
         "projectName": "B Domain",
-        "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain\\B Domain.csproj",
+        "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain\\B Domain.csproj",
         "packagesPath": "C:\\Users\\CARLIÑO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain\\obj\\",
+        "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CARLIÑO\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -112,8 +112,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj": {
-                "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj"
+              "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj": {
+                "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj"
               }
             }
           }
@@ -147,14 +147,14 @@
         }
       }
     },
-    "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj": {
+    "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj",
+        "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj",
         "projectName": "C Data",
-        "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj",
+        "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj",
         "packagesPath": "C:\\Users\\CARLIÑO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\obj\\",
+        "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CARLIÑO\\AppData\\Roaming\\NuGet\\NuGet.Config"

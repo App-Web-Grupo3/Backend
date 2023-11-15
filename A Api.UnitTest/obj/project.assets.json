@@ -11936,11 +11936,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\A Api.UnitTest\\A Api.UnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\A Api.UnitTest\\A Api.UnitTest.csproj",
       "projectName": "A Api.UnitTest",
-      "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\A Api.UnitTest\\A Api.UnitTest.csproj",
+      "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\A Api.UnitTest\\A Api.UnitTest.csproj",
       "packagesPath": "C:\\Users\\CARLIÑO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\A Api.UnitTest\\obj\\",
+      "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\A Api.UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CARLIÑO\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -11955,11 +11955,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\CARLIÑO\\Desktop\\Backend\\A Api\\A Api.csproj": {
-              "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\A Api\\A Api.csproj"
+            "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\A Api\\A Api.csproj": {
+              "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\A Api\\A Api.csproj"
             },
-            "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain\\B Domain.csproj": {
-              "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain\\B Domain.csproj"
+            "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain\\B Domain.csproj": {
+              "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain\\B Domain.csproj"
             }
           }
         }
