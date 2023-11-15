@@ -820,11 +820,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj",
+      "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj",
       "projectName": "C Data",
-      "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj",
+      "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj",
       "packagesPath": "C:\\Users\\CARLIÑO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\obj\\",
+      "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CARLIÑO\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -891,5 +891,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

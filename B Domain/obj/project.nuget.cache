@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u0atJHlmpBMNebZ+QSY8ejHS6Pmy0h7f/x8QupRYUmmqnKAJRzhllqypjhSCe/5nl2VxvNUhO5MfdNPVUfAxHQ==",
+  "dgSpecHash": "JU4gxRGILDvT+aoYYPrt3th5jvGiOTGN+Y2uNt2HPU21m1fHSxXDt1G3dHIlqTZZ7RL1lJdpXb9atUMfPwsZgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain\\B Domain.csproj",
+  "projectFilePath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain\\B Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CARLIÑO\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\CARLIÑO\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -23,5 +23,12 @@
     "C:\\Users\\CARLIÑO\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",
     "C:\\Users\\CARLIÑO\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\7.0.0\\pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

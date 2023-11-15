@@ -1,4 +1,6 @@
-﻿namespace Data.Model;
+﻿using System.Text.Json.Serialization;
+
+namespace Data.Model;
 
 public class Tourist : Base
 {
@@ -8,4 +10,10 @@ public class Tourist : Base
     public string? Password { get; set; }
     public string Phone { get; set; }
     public List<Comment>? Comments { get; set; }
+    
+    [JsonIgnore]
+    public Favorites Favorites { get; set; }
+    
+    [JsonIgnore]
+    public List<PaymentMethod> PaymentMethod { get; set; }
 }

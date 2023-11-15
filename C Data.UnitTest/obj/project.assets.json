@@ -6508,11 +6508,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data.UnitTest\\C Data.UnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data.UnitTest\\C Data.UnitTest.csproj",
       "projectName": "C Data.UnitTest",
-      "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data.UnitTest\\C Data.UnitTest.csproj",
+      "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data.UnitTest\\C Data.UnitTest.csproj",
       "packagesPath": "C:\\Users\\CARLIÑO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data.UnitTest\\obj\\",
+      "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data.UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CARLIÑO\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6527,8 +6527,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj": {
-              "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\C Data\\C Data.csproj"
+            "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj": {
+              "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj"
             }
           }
         }
@@ -6591,5 +6591,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data.UnitTest\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

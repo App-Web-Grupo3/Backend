@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oDDnUGtad0gNEhz/Wda1xVzOCuMK+Y+ghaz01eDKgCIZcvVZR2YrTZEQvMm/uK9kY3CIR9cPImEcKyJQRzaL9g==",
+  "dgSpecHash": "RASRtUfbDzxpO4BN47fhUcGPc2xPa5jKjH7aT6KlI00R9Vfdd1M4hBBrp9dc11hMf03ar1VsW+UH9tt3m/WO+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CARLIÑO\\Desktop\\Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj",
+  "projectFilePath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CARLIÑO\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\CARLIÑO\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -115,5 +115,12 @@
     "C:\\Users\\CARLIÑO\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512",
     "C:\\Users\\CARLIÑO\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain.UnitTest\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
