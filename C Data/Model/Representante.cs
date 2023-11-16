@@ -8,6 +8,7 @@ public class Representante : Base
     public string? Correo { get; set; }
     public string? Contrasenia { get; set; }
     public string? Telefono { get; set; }
+    
     public List<Company> Companies { get; set; }
     
 }
