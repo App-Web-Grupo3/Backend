@@ -24,4 +24,6 @@ public class CompanyRequest
     public string ProfilePicture { get; set; }
     [Required]
     public int RepresentanteId { get; set; }
+    
+    public int CommentId { get; set; }
 }

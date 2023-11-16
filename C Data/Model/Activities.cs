@@ -15,7 +15,10 @@ public class Activities : Base
     public int CompanyId { get; set; }
     [JsonIgnore]
     public Company Company { get; set; }
-    //public List<Comment> Comments { get; set; }
+    
+    [JsonIgnore]
+    public List<Comment> Comments { get; set; }
+    
     [JsonIgnore]
     public List<Images> Images { get; set; }
 }

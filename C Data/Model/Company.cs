@@ -15,7 +15,12 @@ public class Company : Base
     public int RepresentanteId { get; set; }
     [JsonIgnore]
     public Representante Representante { get; set; }
+    
     [JsonIgnore]
     public List<Activities> Activities { get; set; }
+    
+
+    [JsonIgnore]
+    public List<Comment> Comments { get; set; }
    
 }

@@ -19,7 +19,8 @@ public class AppDbContext : DbContext
     public DbSet<Images> Images { get; set; }
     public DbSet<Company> Companies { get; set; }
     public DbSet<Favorites> Favorites { get; set; }
-    
+    public DbSet<Comment> Comments { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
 
@@ -73,6 +74,10 @@ public class AppDbContext : DbContext
             .HasMany(a => a.Images)
             .WithOne(i => i.Activities)
             .HasForeignKey(i => i.ActivitiesId);
+        builder.Entity<Activities>()
+            .HasMany(a => a.Comments)
+            .WithOne(i => i.Activities)
+            .HasForeignKey(i => i.ActivitiesId);
 
         builder.Entity<Images>().ToTable("Images");
         builder.Entity<Images>().HasKey(p => p.Id);
@@ -105,5 +110,19 @@ public class AppDbContext : DbContext
             .HasMany(c => c.Activities)
             .WithOne(a => a.Company)
             .HasForeignKey(a => a.CompanyId);
+    
+        builder.Entity<Company>()
+            .HasMany(c => c.Comments)
+            .WithOne(g => g.Company)
+            .HasForeignKey(h => h.CompanyId);
+        
+        
+        builder.Entity<Comment>().ToTable("Comments");
+        builder.Entity<Comment>().HasKey(p => p.Id);
+        builder.Entity<Comment>().Property(p => p.Content).IsRequired().HasMaxLength(500);
+        builder.Entity<Comment>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
+        builder.Entity<Comment>().Property(p => p.IsActive).HasDefaultValue(true);
     }
+    
+    
 }
