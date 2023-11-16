@@ -20,7 +20,7 @@ public class AppDbContext : DbContext
     public DbSet<Company> Companies { get; set; }
     public DbSet<Favorites> Favorites { get; set; }
     public DbSet<PaymentMethod> PaymentMethod { get; set; }
-    
+    public DbSet<Comment> Comments { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
 
@@ -96,6 +96,8 @@ public class AppDbContext : DbContext
         builder.Entity<PaymentMethod>().Property(p => p.CVC).IsRequired().HasMaxLength(4);
         builder.Entity<PaymentMethod>().HasOne(p => p.Tourist)
             .WithMany(p => p.PaymentMethod);
+        builder.Entity<PaymentMethod>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
+        builder.Entity<PaymentMethod>().Property(p => p.IsActive).HasDefaultValue(true);
         
         builder.Entity<Company>().ToTable("Companies");
         builder.Entity<Company>().HasKey(p => p.Id);
@@ -105,7 +107,15 @@ public class AppDbContext : DbContext
         builder.Entity<Company>().Property(p => p.Ruc).IsRequired().HasMaxLength(9);
         builder.Entity<Company>().Property(p => p.Phone).IsRequired().HasMaxLength(9);
         builder.Entity<Company>().Property(p => p.Address).IsRequired().HasMaxLength(50);
+        
         builder.Entity<Company>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
         builder.Entity<Company>().Property(p => p.IsActive).HasDefaultValue(true);
+        
+    
+        builder.Entity<Comment>().ToTable("Comments");
+        builder.Entity<Comment>().HasKey(p => p.Id);
+        builder.Entity<Comment>().Property(p => p.Content).IsRequired().HasMaxLength(500);
+        builder.Entity<Comment>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
+        builder.Entity<Comment>().Property(p => p.IsActive).HasDefaultValue(true);
     }
 }

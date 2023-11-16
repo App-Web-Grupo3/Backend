@@ -10,4 +10,5 @@ public interface IActivitiesDomain
     public Task<bool> Create(Activities activity);
     public Task<bool> Update(Activities title, int id);
     public Task<bool> Delete(int id);
+    
 }

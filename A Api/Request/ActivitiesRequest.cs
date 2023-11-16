@@ -17,4 +17,7 @@ public class ActivitiesRequest
     public bool? Discount { get; set; }
     public float Percentage { get; set; }
     public bool? Restriction { get; set; }
+    
+    
+    
 }
