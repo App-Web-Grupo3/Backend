@@ -4,7 +4,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80fc7be8-3920-4a25-b923-38f6cecf0f2e" name="Changes" comment="" />
+    <list default="true" id="80fc7be8-3920-4a25-b923-38f6cecf0f2e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/A Api/Controllers/CommentController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A Api/Request/CommentRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A Api/Response/CommentResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B Domain/Service/CommentDomain.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B Domain/Service/Impl/ICommentDomain.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C Data/Persistencia/CommentData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C Data/Persistencia/Impl/ICommentData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A Api.UnitTest/obj/Debug/net7.0/A Api.UnitTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/A Api.UnitTest/obj/Debug/net7.0/A Api.UnitTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A Api.UnitTest/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/A Api.UnitTest/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A Api.UnitTest/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/A Api.UnitTest/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A Api/Request/ActivitiesRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A Api/Request/ActivitiesRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A Api/Response/ActivitiesResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/A Api/Response/ActivitiesResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A Api/bin/Debug/net7.0/A Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A Api/bin/Debug/net7.0/A Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A Api/bin/Debug/net7.0/A Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/A Api/bin/Debug/net7.0/A Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A Api/bin/Debug/net7.0/B Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A Api/bin/Debug/net7.0/B Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A Api/bin/Debug/net7.0/B Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/A Api/bin/Debug/net7.0/B Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A Api/bin/Debug/net7.0/C Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A Api/bin/Debug/net7.0/C Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A Api/bin/Debug/net7.0/C Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/A Api/bin/Debug/net7.0/C Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A Api/obj/Debug/net7.0/A Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/A Api/obj/Debug/net7.0/A Api.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A Api/obj/Debug/net7.0/A Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/A Api/obj/Debug/net7.0/A Api.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A Api/obj/Debug/net7.0/A Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A Api/obj/Debug/net7.0/A Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A Api/obj/Debug/net7.0/A Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/A Api/obj/Debug/net7.0/A Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A Api/obj/Debug/net7.0/ref/A Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A Api/obj/Debug/net7.0/ref/A Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A Api/obj/Debug/net7.0/refint/A Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/A Api/obj/Debug/net7.0/refint/A Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A Api/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/A Api/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/A Api/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B Domain.UnitTest/obj/Debug/net7.0/B Domain.UnitTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/B Domain.UnitTest/obj/Debug/net7.0/B Domain.UnitTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B Domain.UnitTest/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/B Domain.UnitTest/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B Domain.UnitTest/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/B Domain.UnitTest/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B Domain/Service/Impl/IActivitiesDomain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/B Domain/Service/Impl/IActivitiesDomain.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B Domain/bin/Debug/net7.0/B Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/B Domain/bin/Debug/net7.0/B Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B Domain/bin/Debug/net7.0/B Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/B Domain/bin/Debug/net7.0/B Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B Domain/bin/Debug/net7.0/C Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/B Domain/bin/Debug/net7.0/C Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B Domain/bin/Debug/net7.0/C Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/B Domain/bin/Debug/net7.0/C Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B Domain/obj/Debug/net7.0/B Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/B Domain/obj/Debug/net7.0/B Domain.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B Domain/obj/Debug/net7.0/B Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/B Domain/obj/Debug/net7.0/B Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B Domain/obj/Debug/net7.0/B Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/B Domain/obj/Debug/net7.0/B Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B Domain/obj/Debug/net7.0/B Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/B Domain/obj/Debug/net7.0/B Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B Domain/obj/Debug/net7.0/ref/B Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/B Domain/obj/Debug/net7.0/ref/B Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B Domain/obj/Debug/net7.0/refint/B Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/B Domain/obj/Debug/net7.0/refint/B Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/B Domain/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/B Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C Data.UnitTest/obj/Debug/net7.0/C Data.UnitTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/C Data.UnitTest/obj/Debug/net7.0/C Data.UnitTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C Data.UnitTest/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/C Data.UnitTest/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C Data.UnitTest/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/C Data.UnitTest/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C Data/Context/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/C Data/Context/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C Data/Model/Activities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/C Data/Model/Activities.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C Data/Model/Comment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/C Data/Model/Comment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C Data/Model/Company.cs" beforeDir="false" afterPath="$PROJECT_DIR$/C Data/Model/Company.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C Data/Model/Representante.cs" beforeDir="false" afterPath="$PROJECT_DIR$/C Data/Model/Representante.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C Data/bin/Debug/net7.0/C Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/C Data/bin/Debug/net7.0/C Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C Data/bin/Debug/net7.0/C Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/C Data/bin/Debug/net7.0/C Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C Data/obj/Debug/net7.0/C Data.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/C Data/obj/Debug/net7.0/C Data.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C Data/obj/Debug/net7.0/C Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/C Data/obj/Debug/net7.0/C Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C Data/obj/Debug/net7.0/C Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/C Data/obj/Debug/net7.0/C Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C Data/obj/Debug/net7.0/ref/C Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/C Data/obj/Debug/net7.0/ref/C Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C Data/obj/Debug/net7.0/refint/C Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/C Data/obj/Debug/net7.0/refint/C Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C Data/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/C Data/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C Data/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/C Data/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,19 +84,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "develop",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Merging develop&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,6 +107,9 @@
       <updated>1700065201689</updated>
       <workItem from="1700065202922" duration="5000" />
       <workItem from="1700065416507" duration="517000" />
+      <workItem from="1700117886295" duration="6000" />
+      <workItem from="1700117930852" duration="2000" />
+      <workItem from="1700117948587" duration="12000" />
     </task>
     <servers />
   </component>
