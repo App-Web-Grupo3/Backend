@@ -10,6 +10,8 @@ public class Company : Base
     public string? Ruc { get; set; }
     public string? Phone { get; set; }
     public string? Address { get; set; }
+    
+    
     public string? ProfilePicture { get; set; }
     
     public int RepresentanteId { get; set; }

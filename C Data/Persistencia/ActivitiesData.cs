@@ -63,7 +63,7 @@ public class ActivitiesData : IActivitiesData
             activityUpdated.Discount = activity.Discount;
             activityUpdated.Percentage = activity.Percentage;
             activityUpdated.Restriction = activity.Restriction;
-            activityUpdated.people = activity.people;
+            activityUpdated.People = activity.People;
             activityUpdated.Price = activity.Price;
             activityUpdated.IsActive = activity.IsActive;
             activityUpdated.DateUpdated = DateTime.Now;

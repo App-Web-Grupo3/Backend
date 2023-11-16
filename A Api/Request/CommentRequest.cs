@@ -12,4 +12,5 @@ public class CommentRequest
     [Required]
     public int Activities_id { get; set; }
     public int CompanyId { get; set; }
+
 }

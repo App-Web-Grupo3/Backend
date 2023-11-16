@@ -20,8 +20,15 @@ public class ModelToResource : Profile
         CreateMap<Images, ImagesRequest>();
         CreateMap<Images, ImagesResponse>();
 
+
         CreateMap<Company, CompanyRequest>();
         CreateMap<Company, CompanyResponse>();
+
+        CreateMap<Favorites, FavoritesRequest>();
+        CreateMap<Favorites, FavoritesResponse>();
+        CreateMap<PaymentMethod, PaymentMethodRequest>();
+        CreateMap<PaymentMethod, PaymentMethodResponse>();
+        
     }
     
 }
