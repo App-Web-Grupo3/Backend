@@ -15,6 +15,7 @@ public class ResourceToModel : Profile
         CreateMap<ImagesRequest, Images>();
         
         CreateMap<FavoritesRequest, Answer>();
-        CreateMap<PaymentMethodRequest, Answer>();
+        CreateMap<PaymentMethodRequest, PaymentMethod>();
+        CreateMap<PaymentRequest, Payment>();
     }
 }

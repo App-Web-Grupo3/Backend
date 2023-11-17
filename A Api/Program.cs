@@ -28,6 +28,11 @@ builder.Services.AddScoped<IActivitiesData, ActivitiesData>();
 builder.Services.AddScoped<IImagesDomain, ImagesDomain>();
 builder.Services.AddScoped<IImagesData, ImagesData>();
 
+builder.Services.AddScoped<IPaymentDomain, PaymentDomain>();
+builder.Services.AddScoped<IPaymentData, PaymentData>();
+builder.Services.AddScoped<IPaymentMethodDomain, PaymentMethodDomain>();
+builder.Services.AddScoped<IPaymentMethodData, PaymentMethodData>();
+
 var connectionString = builder.Configuration.GetConnectionString("Conection");
 
 builder.Services.AddDbContext<AppDbContext>(
