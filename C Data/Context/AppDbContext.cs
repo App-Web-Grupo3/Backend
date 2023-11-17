@@ -20,6 +20,7 @@ public class AppDbContext : DbContext
     public DbSet<Company> Companies { get; set; }
     public DbSet<Favorites> Favorites { get; set; }
     public DbSet<PaymentMethod> PaymentMethod { get; set; }
+    public DbSet<Payment> Payments { get; set; }
     public DbSet<Comment> Comments { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -107,6 +108,16 @@ public class AppDbContext : DbContext
             .WithMany(p => p.PaymentMethod);
         builder.Entity<PaymentMethod>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
         builder.Entity<PaymentMethod>().Property(p => p.IsActive).HasDefaultValue(true);
+        
+        builder.Entity<Payment>().ToTable("Payments");
+        builder.Entity<Payment>().HasKey(p => p.Id);
+        builder.Entity<Payment>().Property(p => p.Month).IsRequired().HasDefaultValue(0);
+        builder.Entity<Payment>().Property(p => p.Year).IsRequired().HasDefaultValue(0);
+        builder.Entity<Payment>().Property(p => p.Amount).IsRequired().HasDefaultValue(0);
+        builder.Entity<Payment>().Property(p => p.TaxInformation).IsRequired().HasDefaultValue(0);
+        builder.Entity<Payment>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
+        builder.Entity<Payment>().Property(p => p.IsActive).HasDefaultValue(true);
+
         
         builder.Entity<Company>().ToTable("Companies");
         builder.Entity<Company>().HasKey(p => p.Id);
