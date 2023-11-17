@@ -14,5 +14,6 @@ public class ActivitiesResponse
     public float Percentage { get; set; }
     public bool? Restriction { get; set; }
     public Company Company { get; set; }
+    public Payment Payment { get; set; }
 
 }

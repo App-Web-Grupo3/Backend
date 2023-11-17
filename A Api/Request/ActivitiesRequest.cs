@@ -21,4 +21,6 @@ public class ActivitiesRequest
     public int CompanyId { get; set; }
     
     public int CommentId { get; set; }
+    
+    
 }
