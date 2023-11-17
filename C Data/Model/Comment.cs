@@ -15,7 +15,6 @@ public class Comment : Base
     public List<Answer> Responses { get; set; }
     
     public int CompanyId { get; set; }
-    [JsonIgnore]
     public Company Company { get; set; }
 
 }
