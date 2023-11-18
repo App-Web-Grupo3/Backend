@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = B_Domain.UnitTest
-build_property.ProjectDir = C:\GithubProjects\Backend\B Domain.UnitTest\
+build_property.ProjectDir = C:\Users\CARLIÑO\Desktop\WebService-Backend\B Domain.UnitTest\

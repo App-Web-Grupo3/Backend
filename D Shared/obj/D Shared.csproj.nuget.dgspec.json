@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GithubProjects\\Backend\\D Shared\\D Shared.csproj": {}
+    "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\D Shared\\D Shared.csproj": {}
   },
   "projects": {
-    "C:\\GithubProjects\\Backend\\D Shared\\D Shared.csproj": {
+    "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\D Shared\\D Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GithubProjects\\Backend\\D Shared\\D Shared.csproj",
+        "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\D Shared\\D Shared.csproj",
         "projectName": "D Shared",
-        "projectPath": "C:\\GithubProjects\\Backend\\D Shared\\D Shared.csproj",
-        "packagesPath": "C:\\Users\\JORGE\\.nuget\\packages\\",
-        "outputPath": "C:\\GithubProjects\\Backend\\D Shared\\obj\\",
+        "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\D Shared\\D Shared.csproj",
+        "packagesPath": "C:\\Users\\CARLIÑO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\D Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\JORGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\CARLIÑO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.311\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     }

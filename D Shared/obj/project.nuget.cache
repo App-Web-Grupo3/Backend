@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "77N3x1xHq3A0jgsjS18KSt2dnanxLP5m2KdIDMSsJ2y6zu+hMnHdMlcbTmSsbLfK2+Mja+CqcnsNhPqOp4I2HQ==",
+  "dgSpecHash": "zM1UrFoRcCeYoZT0q0WF6c3eSN263HSe42lg4f0S9Yb1VrItj94x3yOevVQshmKQwmOTJDYb8+3bdBaKbBj5RA==",
   "success": true,
-  "projectFilePath": "C:\\GithubProjects\\Backend\\D Shared\\D Shared.csproj",
+  "projectFilePath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\D Shared\\D Shared.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\JORGE\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
-    "C:\\Users\\JORGE\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
-    "C:\\Users\\JORGE\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512"
+    "C:\\Users\\CARLIÑO\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
+    "C:\\Users\\CARLIÑO\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
+    "C:\\Users\\CARLIÑO\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512"
   ],
   "logs": []
 }
