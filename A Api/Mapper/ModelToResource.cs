@@ -15,6 +15,8 @@ public class ModelToResource : Profile
         CreateMap<Tourist, TouristResponse>();
         CreateMap<Answer, ResponseRequest>();
         CreateMap<Answer, ResResponse>();
+        CreateMap<Company, CompanyRequest>();
+        CreateMap<Company, CompanyResponse>();
         CreateMap<Activities, ActivitiesRequest>();
         CreateMap<Activities, ActivitiesResponse>();
         CreateMap<Images, ImagesRequest>();

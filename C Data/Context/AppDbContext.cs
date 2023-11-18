@@ -15,6 +15,7 @@ public class AppDbContext : DbContext
     public DbSet<Representative> Representatives { get; set; }
     public DbSet<Tourist> Tourists { get; set; }
     public DbSet<Answer> Responses { get; set; }
+    public DbSet<Comment> Comments { get; set; }
     public DbSet<Activities> Activities { get; set; }
     public DbSet<Images> Images { get; set; }
     public DbSet<Company> Companies { get; set; }
@@ -52,6 +53,12 @@ public class AppDbContext : DbContext
         builder.Entity<Answer>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
         builder.Entity<Answer>().Property(p => p.IsActive).HasDefaultValue(true);
         
+        builder.Entity<Comment>().ToTable("Comments");
+        builder.Entity<Comment>().HasKey(p => p.Id);
+        builder.Entity<Comment>().Property(p => p.Content).IsRequired().HasMaxLength(50);
+        builder.Entity<Comment>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
+        builder.Entity<Comment>().Property(p => p.IsActive).HasDefaultValue(true);
+        
         builder.Entity<Tourist>().ToTable("Tourists");
         builder.Entity<Tourist>().HasKey(p => p.Id);
         builder.Entity<Tourist>().Property(p => p.Name).IsRequired().HasMaxLength(20);
@@ -62,7 +69,6 @@ public class AppDbContext : DbContext
         builder.Entity<Tourist>().Property(p => p.Phone).IsRequired().HasMaxLength(9);
         builder.Entity<Tourist>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
         builder.Entity<Tourist>().Property(p => p.IsActive).HasDefaultValue(true);
-        
         
         builder.Entity<Activities>().ToTable("Activities");
         builder.Entity<Activities>().HasKey(p => p.Id);
