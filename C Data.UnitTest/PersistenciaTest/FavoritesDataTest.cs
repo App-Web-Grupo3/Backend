@@ -22,7 +22,7 @@ public class FavoritesDataTest
         using (var context = new AppDbContext(options))
         {
             var favoritesData = new FavoritesData(context);
-            var fakeFavorites = new Favorites { Id = 1, TouristId = 1, ActivitiesId = 1, IsActive = true };
+            var fakeFavorites = new Favorites { Id = 1, IsActive = true };
 
             await context.Favorites.AddAsync(fakeFavorites);
             await context.SaveChangesAsync();
@@ -33,8 +33,7 @@ public class FavoritesDataTest
             // Assert
             Assert.NotNull(result);
             Assert.Equal(fakeFavorites.Id, result.Id);
-            Assert.Equal(fakeFavorites.TouristId, result.TouristId);
-            Assert.Equal(fakeFavorites.ActivitiesId, result.ActivitiesId);
+
         }
     }
 
@@ -46,7 +45,7 @@ public class FavoritesDataTest
         using (var context = new AppDbContext(options))
         {
             var favoritesData = new FavoritesData(context);
-            var fakeFavorites = new Favorites { Id = 1, TouristId = 1, ActivitiesId = 1, IsActive = true };
+            var fakeFavorites = new Favorites { Id = 1, IsActive = true };
 
             // Act
             var result = await favoritesData.GetById(fakeFavorites.Id);
@@ -64,8 +63,8 @@ public class FavoritesDataTest
         using (var context = new AppDbContext(options))
         {
             var favoritesData = new FavoritesData(context);
-            var fakeFavorites1 = new Favorites { Id = 1, TouristId = 1, ActivitiesId = 1, IsActive = true };
-            var fakeFavorites2 = new Favorites { Id = 2, TouristId = 2, ActivitiesId = 2, IsActive = true };
+            var fakeFavorites1 = new Favorites { Id = 1, IsActive = true };
+            var fakeFavorites2 = new Favorites { Id = 2, IsActive = true };
 
             await context.Favorites.AddRangeAsync(fakeFavorites1, fakeFavorites2);
             await context.SaveChangesAsync();
@@ -105,7 +104,7 @@ public class FavoritesDataTest
         using (var context = new AppDbContext(options))
         {
             var favoritesData = new FavoritesData(context);
-            var newFavorites = new Favorites { TouristId = 1, ActivitiesId = 1, IsActive = true };
+            var newFavorites = new Favorites { IsActive = true };
 
             // Act
             var result = await favoritesData.Create(newFavorites);
@@ -124,12 +123,12 @@ public class FavoritesDataTest
         using (var context = new AppDbContext(options))
         {
             var favoritesData = new FavoritesData(context);
-            var fakeFavorites = new Favorites { Id = 1, TouristId = 1, ActivitiesId = 1, IsActive = true };
+            var fakeFavorites = new Favorites { Id = 1, IsActive = true };
 
             await context.Favorites.AddAsync(fakeFavorites);
             await context.SaveChangesAsync();
 
-            var updatedFavorites = new Favorites { Id = fakeFavorites.Id, TouristId = 2, ActivitiesId = 2, IsActive = true };
+            var updatedFavorites = new Favorites { Id = fakeFavorites.Id, IsActive = true };
 
             // Act
             var result = await favoritesData.Update(updatedFavorites);
@@ -147,7 +146,7 @@ public class FavoritesDataTest
         using (var context = new AppDbContext(options))
         {
             var favoritesData = new FavoritesData(context);
-            var updatedFavorites = new Favorites { Id = 1, TouristId = 1, ActivitiesId = 1, IsActive = true };
+            var updatedFavorites = new Favorites { Id = 1, IsActive = true };
 
             // Act
             var result = await favoritesData.Update(updatedFavorites);
@@ -165,7 +164,7 @@ public class FavoritesDataTest
         using (var context = new AppDbContext(options))
         {
             var favoritesData = new FavoritesData(context);
-            var fakeFavorites = new Favorites { Id = 1, TouristId = 1, ActivitiesId = 1, IsActive = true };
+            var fakeFavorites = new Favorites { Id = 1, IsActive = true };
 
             await context.Favorites.AddAsync(fakeFavorites);
             await context.SaveChangesAsync();

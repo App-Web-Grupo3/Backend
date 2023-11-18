@@ -2,8 +2,6 @@
 
 public class Favorites : Base
 {
-    public int TouristId { get; set; }
-    public Tourist Tourist { get; set; }
-    public int ActivitiesId { get; set; }
-    public Activities Activities { get; set; }
+    public List<Tourist> Tourists { get; set; }
+    public List<Activities> Activities { get; set; }
 }

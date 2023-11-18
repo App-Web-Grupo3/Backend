@@ -12,20 +12,22 @@ public class AppDbContext : DbContext
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
     {
     }
-    public DbSet<Representante> Representantes { get; set; }
+    public DbSet<Representative> Representatives { get; set; }
     public DbSet<Tourist> Tourists { get; set; }
     public DbSet<Answer> Responses { get; set; }
     public DbSet<Activities> Activities { get; set; }
     public DbSet<Images> Images { get; set; }
     public DbSet<Company> Companies { get; set; }
     public DbSet<Favorites> Favorites { get; set; }
-    public DbSet<PaymentMethod> PaymentMethod { get; set; }
+    public DbSet<PaymentMethod> PaymentMethods { get; set; }
+    public DbSet<User> Users { get; set; }
+    public DbSet<UserRole> UserRoles { get; set; }
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
 
         var serverVersion = new MySqlServerVersion(new Version(8, 0, 29));
-        optionsBuilder.UseMySql("Server=127.0.0.1,3306;Uid=root;Pwd=Admin#123456;Database=uniquetrip;", serverVersion);
+        optionsBuilder.UseMySql("Server=127.0.0.1,3306;Uid=root;Pwd=12345;Database=uniquetrip;", serverVersion);
 
     }
 
@@ -33,15 +35,16 @@ public class AppDbContext : DbContext
     {
         base.OnModelCreating(builder);
         
-        builder.Entity<Representante>().ToTable("Representatives");
-        builder.Entity<Representante>().HasKey(p => p.Id);
-        builder.Entity<Representante>().Property(p => p.Nombre).IsRequired().HasMaxLength(20);
-        builder.Entity<Representante>().Property(p => p.Apellido).IsRequired().HasMaxLength(20);
-        builder.Entity<Representante>().Property(p => p.Correo).IsRequired().HasMaxLength(20);
-        builder.Entity<Representante>().Property(p=>p.Contrasenia).IsRequired().HasMaxLength(20);
-        builder.Entity<Representante>().Property(p => p.Telefono).IsRequired().HasMaxLength(9);
-        builder.Entity<Representante>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
-        builder.Entity<Representante>().Property(p => p.IsActive).HasDefaultValue(true);
+        builder.Entity<Representative>().ToTable("Representatives");
+        builder.Entity<Representative>().HasKey(p => p.Id);
+        builder.Entity<Representative>().Property(p => p.Name).IsRequired().HasMaxLength(20);
+        builder.Entity<Representative>().Property(p => p.LastName).IsRequired().HasMaxLength(20);
+        builder.Entity<Representative>().Property(p => p.Mail).IsRequired().HasMaxLength(30);
+        builder.Entity<Representative>().Property(p=>p.Password).IsRequired().HasMaxLength(20);
+        builder.Entity<Representative>().Property(p=>p.SelectedRole).IsRequired().HasMaxLength(20);
+        builder.Entity<Representative>().Property(p => p.Phone).IsRequired().HasMaxLength(9);
+        builder.Entity<Representative>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
+        builder.Entity<Representative>().Property(p => p.IsActive).HasDefaultValue(true);
 
         builder.Entity<Answer>().ToTable("Responses");
         builder.Entity<Answer>().HasKey(p => p.Id);
@@ -53,11 +56,13 @@ public class AppDbContext : DbContext
         builder.Entity<Tourist>().HasKey(p => p.Id);
         builder.Entity<Tourist>().Property(p => p.Name).IsRequired().HasMaxLength(20);
         builder.Entity<Tourist>().Property(p => p.LastName).IsRequired().HasMaxLength(20);
-        builder.Entity<Tourist>().Property(p => p.Mail).IsRequired().HasMaxLength(20);
+        builder.Entity<Tourist>().Property(p => p.Mail).IsRequired().HasMaxLength(30);
         builder.Entity<Tourist>().Property(p=>p.Password).IsRequired().HasMaxLength(20);
+        builder.Entity<Tourist>().Property(p=>p.SelectedRole).IsRequired().HasMaxLength(20);
         builder.Entity<Tourist>().Property(p => p.Phone).IsRequired().HasMaxLength(9);
         builder.Entity<Tourist>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
         builder.Entity<Tourist>().Property(p => p.IsActive).HasDefaultValue(true);
+        
         
         builder.Entity<Activities>().ToTable("Activities");
         builder.Entity<Activities>().HasKey(p => p.Id);
@@ -79,23 +84,17 @@ public class AppDbContext : DbContext
         
         builder.Entity<Favorites>().ToTable("Favorites");
         builder.Entity<Favorites>().HasKey(p => p.Id);
-        builder.Entity<Favorites>().HasOne(p => p.Tourist)
-            .WithOne(p => p.Favorites);
-        builder.Entity<Favorites>().HasOne(p => p.Activities)
-            .WithOne(p => p.Favorites);
         builder.Entity<Favorites>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
         builder.Entity<Favorites>().Property(p => p.IsActive).HasDefaultValue(true);
 
 
-        builder.Entity<PaymentMethod>().ToTable("PaymentMethod");
+        builder.Entity<PaymentMethod>().ToTable("PaymentMethods");
         builder.Entity<PaymentMethod>().HasKey(p => p.Id);
         builder.Entity<PaymentMethod>().Property(p => p.CardNumber).IsRequired().HasMaxLength(16);
         builder.Entity<PaymentMethod>().Property(p => p.AccountHolderName).IsRequired().HasMaxLength(50);
         builder.Entity<PaymentMethod>().Property(p => p.Month).IsRequired().HasMaxLength(2);
         builder.Entity<PaymentMethod>().Property(p=>p.Year).IsRequired().HasMaxLength(4);
         builder.Entity<PaymentMethod>().Property(p => p.CVC).IsRequired().HasMaxLength(4);
-        builder.Entity<PaymentMethod>().HasOne(p => p.Tourist)
-            .WithMany(p => p.PaymentMethod);
         
         builder.Entity<Company>().ToTable("Companies");
         builder.Entity<Company>().HasKey(p => p.Id);
@@ -107,5 +106,19 @@ public class AppDbContext : DbContext
         builder.Entity<Company>().Property(p => p.Address).IsRequired().HasMaxLength(50);
         builder.Entity<Company>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
         builder.Entity<Company>().Property(p => p.IsActive).HasDefaultValue(true);
+        
+        builder.Entity<User>().ToTable("Users");
+        builder.Entity<User>().HasKey(p => p.Id);
+        builder.Entity<User>().Property(p => p.SelectedRole).IsRequired(); 
+        builder.Entity<User>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
+        builder.Entity<User>().Property(p => p.IsActive).HasDefaultValue(true);
+
+        builder.Entity<UserRole>().ToTable("UserRoles");
+        builder.Entity<UserRole>().HasKey(ur => ur.Id);
+        builder.Entity<UserRole>().Property(ur => ur.RoleType).IsRequired();
+        builder.Entity<UserRole>().Property(ur => ur.DateCreated).HasDefaultValue(DateTime.Now);
+        builder.Entity<UserRole>().Property(ur => ur.IsActive).HasDefaultValue(true);
+
     }
+    
 }

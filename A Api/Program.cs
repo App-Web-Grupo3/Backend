@@ -1,9 +1,11 @@
 using Data.Context;
 using Data.Persistencia;
 using Data.Persistencia.Impl;
+using Domain.Mapper;
 using Domain.Service;
 using Domain.Service.Impl;
 using Microsoft.EntityFrameworkCore;
+using NuGet.Common;
 using UniqueTrip.Mapper;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,17 +19,34 @@ builder.Services.AddSwaggerGen();
 
 
 //Dependencie Injection 
-builder.Services.AddScoped<IRepresentanteDomain, RepresentanteDomain>();
-builder.Services.AddScoped<IRepresentanteData, RepresentanteData>();
+builder.Services.AddScoped<IRepresentativeDomain, RepresentativeDomain>();
+builder.Services.AddScoped<IRepresentativeData, RepresentativeData>();
 builder.Services.AddScoped<ITouristDomain, TouristDomain>();
 builder.Services.AddScoped<ITouristData, TouristData>();
+builder.Services.AddScoped<ICompanyDomain, CompanyDomain>();
+builder.Services.AddScoped<ICompanyData, CompanyData>();
 builder.Services.AddScoped<IResponseDomain, ResponseDomain>();
 builder.Services.AddScoped<IResponseData, ResponseData>();
 builder.Services.AddScoped<IActivitiesDomain, ActivitiesDomain>();
 builder.Services.AddScoped<IActivitiesData, ActivitiesData>();
 builder.Services.AddScoped<IImagesDomain, ImagesDomain>();
 builder.Services.AddScoped<IImagesData, ImagesData>();
+builder.Services.AddScoped<IUserDomain, UserDomain>();
+builder.Services.AddScoped<IUserData, UserData>();
+builder.Services.AddScoped<IEncryptDomain, EncryptDomain>();
+builder.Services.AddScoped<ITokenDomain, TokenDomain>();
+builder.Services.AddScoped<IPaymentMethodDomain, PaymentMethodDomain>();
+builder.Services.AddScoped<IPaymentMethodData, PaymentMethodData>();
+builder.Services.AddScoped<IFavoritesDomain, FavoritesDomain>();
+builder.Services.AddScoped<IFavoritesData, FavoritesData>();
 
+//Cors
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+});
+
+//Connection to MySql
 var connectionString = builder.Configuration.GetConnectionString("Conection");
 
 builder.Services.AddDbContext<AppDbContext>(
@@ -44,7 +63,8 @@ builder.Services.AddDbContext<AppDbContext>(
 
 builder.Services.AddAutoMapper(
     typeof(ModelToResource),
-    typeof(ResourceToModel)
+    typeof(ResourceToModel),
+    typeof(UserBaseTo)
 );
 
 
@@ -63,6 +83,19 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseExceptionHandler(builder =>
+{
+    builder.Use(async (context, next) =>
+    {
+        context.Response.Headers.Add("Access-Control-Allow-Origin", "*");
+        await next();
+    });
+});
+
+app.UseCors();
+
+app.UseStaticFiles();
 
 app.UseHttpsRedirection();
 

@@ -2,11 +2,11 @@
 
 namespace Data.Persistencia.Impl;
 
-public interface IRepresentanteData
+public interface IRepresentativeData
 {
-    Task<IEnumerable<Representante>> ListAsync();
-    Task AddAsync(Representante representante);
-    Task<Representante> FindByIdAsync(int id);
-    void Update(Representante representante);
-    void Remove(Representante representante);
+    Task<IEnumerable<Representative>> ListAsync();
+    Task AddAsync(Representative representative);
+    Task<Representative> FindByIdAsync(int id);
+    void Update(Representative representative);
+    void Remove(Representative representative);
 }

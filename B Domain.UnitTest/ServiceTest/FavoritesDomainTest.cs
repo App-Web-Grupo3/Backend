@@ -13,7 +13,7 @@ public class FavoritesDomainTest
         // Arrange
         var favoritesDataMock = Substitute.For<IFavoritesData>();
         var domain = new FavoritesDomain(favoritesDataMock);
-        var fakeFavorites = new Favorites { Id = 1, TouristId = 1, ActivitiesId = 1 };
+        var fakeFavorites = new Favorites { Id = 1};
 
         favoritesDataMock.GetById(1).Returns(fakeFavorites);
 
@@ -23,8 +23,6 @@ public class FavoritesDomainTest
         // Assert
         Assert.NotNull(result);
         Assert.Equal(fakeFavorites.Id, result.Id);
-        Assert.Equal(fakeFavorites.TouristId, result.TouristId);
-        Assert.Equal(fakeFavorites.ActivitiesId, result.ActivitiesId);
     }
 
     [Fact]
@@ -47,8 +45,8 @@ public class FavoritesDomainTest
         var domain = new FavoritesDomain(favoritesDataMock);
         var fakeFavoritesList = new List<Favorites>
         {
-            new Favorites { Id = 1, TouristId = 1, ActivitiesId = 1 },
-            new Favorites { Id = 2, TouristId = 2, ActivitiesId = 2 }
+            new Favorites { Id = 1},
+            new Favorites { Id = 2}
         };
 
         favoritesDataMock.GetAll().Returns(fakeFavoritesList);
@@ -67,7 +65,7 @@ public class FavoritesDomainTest
         // Arrange
         var favoritesDataMock = Substitute.For<IFavoritesData>();
         var domain = new FavoritesDomain(favoritesDataMock);
-        var validFavorites = new Favorites { TouristId = 1, ActivitiesId = 1 };
+        var validFavorites = new Favorites { Id = 1 };
 
         favoritesDataMock.Create(validFavorites).Returns(true);
 
@@ -84,7 +82,7 @@ public class FavoritesDomainTest
         // Arrange
         var favoritesDataMock = Substitute.For<IFavoritesData>();
         var domain = new FavoritesDomain(favoritesDataMock);
-        var validFavorites = new Favorites { Id = 1, TouristId = 1, ActivitiesId = 1 };
+        var validFavorites = new Favorites { Id = 1 };
 
         favoritesDataMock.GetById(1).Returns(validFavorites);
         favoritesDataMock.Update(validFavorites).Returns(true);
@@ -102,7 +100,7 @@ public class FavoritesDomainTest
         // Arrange
         var favoritesDataMock = Substitute.For<IFavoritesData>();
         var domain = new FavoritesDomain(favoritesDataMock);
-        var invalidFavorites = new Favorites { Id = 1, TouristId = 1, ActivitiesId = 1 };
+        var invalidFavorites = new Favorites { Id = 1 };
 
         favoritesDataMock.GetById(1).Returns((Favorites)null);
 
@@ -119,7 +117,7 @@ public class FavoritesDomainTest
         // Arrange
         var favoritesDataMock = Substitute.For<IFavoritesData>();
         var domain = new FavoritesDomain(favoritesDataMock);
-        var fakeFavorites = new Favorites { Id = 1, TouristId = 1, ActivitiesId = 1 };
+        var fakeFavorites = new Favorites { Id = 1 };
 
         favoritesDataMock.GetById(1).Returns(fakeFavorites);
         favoritesDataMock.Delete(1).Returns(true);

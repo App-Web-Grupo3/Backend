@@ -8,13 +8,14 @@ public class ResourceToModel : Profile
 {
     public ResourceToModel()
     {
-        CreateMap<RepresentanteRequest, Representante>();
+        CreateMap<RepresentativeRequest, Representative>();
         CreateMap<TouristRequest, Tourist>();
         CreateMap<ResponseRequest, Answer>();
         CreateMap<ActivitiesRequest, Activities>();
         CreateMap<ImagesRequest, Images>();
-        
-        CreateMap<FavoritesRequest, Answer>();
-        CreateMap<PaymentMethodRequest, Answer>();
+        CreateMap<FavoritesRequest, Favorites>();
+        CreateMap<PaymentMethodRequest, PaymentMethod>();
+        CreateMap<UserLoginRequest, UserBase>();
+        CreateMap<UserRegisterRequest, UserBase>();
     }
 }

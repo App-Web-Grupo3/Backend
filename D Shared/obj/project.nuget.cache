@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "77N3x1xHq3A0jgsjS18KSt2dnanxLP5m2KdIDMSsJ2y6zu+hMnHdMlcbTmSsbLfK2+Mja+CqcnsNhPqOp4I2HQ==",
+  "success": true,
+  "projectFilePath": "C:\\GithubProjects\\Backend\\D Shared\\D Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JORGE\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
+    "C:\\Users\\JORGE\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
+    "C:\\Users\\JORGE\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

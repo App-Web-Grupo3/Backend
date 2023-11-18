@@ -44,7 +44,6 @@ public class PaymentMethodDomain : IPaymentMethodDomain
         existePaymentMethod.Month= paymentMethod.Month;
         existePaymentMethod.Year = paymentMethod.Year;
         existePaymentMethod.CVC= paymentMethod.CVC;
-        existePaymentMethod.TouristId = paymentMethod.TouristId;
         
         try
         {

@@ -2,18 +2,13 @@
 
 namespace Data.Model;
 
-public class Tourist : Base
+public class Tourist : UserBase
 {
-    public string? Name { get; set; }
-    public string? LastName { get; set; }
-    public string? Mail { get; set; }
-    public string? Password { get; set; }
-    public string Phone { get; set; }
-    public List<Comment>? Comments { get; set; }
-    
-    [JsonIgnore]
+    public int? FavoritesId { get; set; }
     public Favorites Favorites { get; set; }
-    
-    [JsonIgnore]
-    public List<PaymentMethod> PaymentMethod { get; set; }
+    //public int? PaymentMethodId { get; set; }
+    //public PaymentMethod PaymentMethod { get; set; }
+    //public int? CommentId { get; set; }
+    //public Comment Comment { get; set; }
+    public UserRole? UserRole { get; set; }
 }

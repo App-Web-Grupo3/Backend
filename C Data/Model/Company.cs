@@ -9,7 +9,9 @@ public class Company : Base
     public string? Phone { get; set; }
     public string? Address { get; set; }
     public string? ProfilePicture { get; set; }
-    public int RepresentanteId { get; set; }
-    public Representante Representante { get; set; }
-    public List<Answer> Responses { get; set; }
+    public Representative Representative { get; set; }
+    public int AnswerId { get; set; }
+    public Answer Answer { get; set; }
+    public int ActivitiesId { get; set; }
+    public Activities Activities { get; set; }
 }

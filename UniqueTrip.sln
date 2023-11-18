@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B Domain.UnitTest", "B Doma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C Data.UnitTest", "C Data.UnitTest\C Data.UnitTest.csproj", "{685B962C-E43B-494C-96C3-BB727FBB054A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D Shared", "D Shared\D Shared.csproj", "{DD5A3E13-CE04-48FA-9713-5E1B58626EED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{685B962C-E43B-494C-96C3-BB727FBB054A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{685B962C-E43B-494C-96C3-BB727FBB054A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{685B962C-E43B-494C-96C3-BB727FBB054A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD5A3E13-CE04-48FA-9713-5E1B58626EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5A3E13-CE04-48FA-9713-5E1B58626EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD5A3E13-CE04-48FA-9713-5E1B58626EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5A3E13-CE04-48FA-9713-5E1B58626EED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
