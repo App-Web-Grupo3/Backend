@@ -2,13 +2,9 @@
 
 public class Comment : Base
 {
-    public string? Content { get; set; } //comentario
-    
-    public int TouristId { get; set; } //remitente
-    public Tourist Tourist { get; set; }
-    
-    public int ActivitiesId { get; set; } //destinatario
-    public Activities Activities { get; set; }
-    
-    public List<Answer> Responses { get; set; }
+    public string? comment { get; set; }
+    //public List<Tourist> Tourists { get; set; }
+    //public List<Activities> Activities { get; set; }
+    //public int AnswerId { get; set; }
+    // public Answer Answer { get; set; }
 }

@@ -22,6 +22,7 @@ public class CompanyRequest
     [Required]
     [MaxLength(100)]
     public string ProfilePicture { get; set; }
-    [Required]
-    public int RepresentanteId { get; set; }
+    public int AnswerId { get; set; }
+    public int ActivitiesId { get; set; }
+    
 }

@@ -25,8 +25,8 @@ namespace UniqueTrip.UnitTest.Controllers
 
             var fakeFavoritesList = new List<Favorites>
             {
-                new Favorites { Id = 1, TouristId = 1, ActivitiesId = 1, DateCreated = DateTime.Now },
-                new Favorites { Id = 2, TouristId = 2, ActivitiesId = 2, DateCreated = DateTime.Now }
+                new Favorites { Id = 1, DateCreated = DateTime.Now },
+                new Favorites { Id = 2, DateCreated = DateTime.Now }
             };
 
             favoritesDataMock.GetAll().Returns(fakeFavoritesList);
@@ -48,7 +48,7 @@ namespace UniqueTrip.UnitTest.Controllers
             var mapperMock = Substitute.For<IMapper>();
 
             var controller = new FavoritesController(favoritesDomainMock, favoritesDataMock, mapperMock);
-            var fakeFavorites = new Favorites { Id = 1, TouristId = 1, ActivitiesId = 1, DateCreated = DateTime.Now };
+            var fakeFavorites = new Favorites { Id = 1, DateCreated = DateTime.Now };
 
             favoritesDataMock.GetById(1).Returns(fakeFavorites);
 
@@ -69,7 +69,7 @@ namespace UniqueTrip.UnitTest.Controllers
             var mapperMock = Substitute.For<IMapper>();
 
             var controller = new FavoritesController(favoritesDomainMock, favoritesDataMock, mapperMock);
-            var validFavoritesRequest = new FavoritesRequest { Tourist_id = 1, Activities_id = 1 };
+            var validFavoritesRequest = new FavoritesRequest {  };
 
             favoritesDomainMock.Create(Arg.Any<Favorites>()).Returns(true);
 
@@ -89,7 +89,7 @@ namespace UniqueTrip.UnitTest.Controllers
             var mapperMock = Substitute.For<IMapper>();
 
             var controller = new FavoritesController(favoritesDomainMock, favoritesDataMock, mapperMock);
-            var validFavoritesRequest = new FavoritesRequest { Tourist_id = 1, Activities_id = 1 };
+            var validFavoritesRequest = new FavoritesRequest { };
 
             favoritesDomainMock.Update(Arg.Any<Favorites>(), 1).Returns(true);
 

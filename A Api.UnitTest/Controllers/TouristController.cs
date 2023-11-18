@@ -23,8 +23,8 @@ public class TouristControllerTest
         // Mock GetAll
         var fakeTouristList = new List<Tourist>
         {
-            new Tourist { Id = 1, Name = "John", LastName = "Doe", Mail = "john@example.com", Password = "password", Phone = "123456789", Comments = new List<Comment>(), DateCreated = DateTime.Now },
-            new Tourist { Id = 2, Name = "Jane", LastName = "Doe", Mail = "jane@example.com", Password = "password", Phone = "987654321", Comments = new List<Comment>(), DateCreated = DateTime.Now }
+            new Tourist { Id = 1, Name = "John", LastName = "Doe", Mail = "john@example.com", Password = "password", Phone = "123456789", DateCreated = DateTime.Now },
+            new Tourist { Id = 2, Name = "Jane", LastName = "Doe", Mail = "jane@example.com", Password = "password", Phone = "987654321", DateCreated = DateTime.Now }
         };
         touristDataMock.GetAll().Returns(Task.FromResult(fakeTouristList));
 
@@ -55,7 +55,7 @@ public class TouristControllerTest
 
             var touristController = new TouristController(touristDomainMock, touristDataMock, mapperMock);
 
-            var fakeTourist = new Tourist { Id = 1, Name = "John", LastName = "Doe", Mail = "john@example.com", Password = "password", Phone = "123456789", Comments = new List<Comment>(), DateCreated = DateTime.Now };
+            var fakeTourist = new Tourist { Id = 1, Name = "John", LastName = "Doe", Mail = "john@example.com", Password = "password", Phone = "123456789", DateCreated = DateTime.Now };
             touristDataMock.GetById(Arg.Any<int>()).Returns(Task.FromResult(fakeTourist));
 
             var fakeTouristResponse = new TouristResponse { Name = "John", LastName = "Doe", Mail = "john@example.com", Phone = "123456789", DateCreated = DateTime.Now };
@@ -82,8 +82,8 @@ public class TouristControllerTest
             // Mock GetByName
             var fakeTouristList = new List<Tourist>
             {
-                new Tourist { Id = 1, Name = "John", LastName = "Doe", Mail = "john@example.com", Password = "password", Phone = "123456789", Comments = new List<Comment>(), DateCreated = DateTime.Now },
-                new Tourist { Id = 2, Name = "John", LastName = "Doe", Mail = "jane@example.com", Password = "password", Phone = "987654321", Comments = new List<Comment>(), DateCreated = DateTime.Now }
+                new Tourist { Id = 1, Name = "John", LastName = "Doe", Mail = "john@example.com", Password = "password", Phone = "123456789", DateCreated = DateTime.Now },
+                new Tourist { Id = 2, Name = "John", LastName = "Doe", Mail = "jane@example.com", Password = "password", Phone = "987654321", DateCreated = DateTime.Now }
             };
             touristDataMock.GetByName(Arg.Any<Tourist>()).Returns(Task.FromResult(fakeTouristList));
 
@@ -109,8 +109,8 @@ public class TouristControllerTest
             // Mock GetByPhone
             var fakeTouristList = new List<Tourist>
             {
-                new Tourist { Id = 1, Name = "John", LastName = "Doe", Mail = "john@example.com", Password = "password", Phone = "123456789", Comments = new List<Comment>(), DateCreated = DateTime.Now },
-                new Tourist { Id = 2, Name = "Jane", LastName = "Doe", Mail = "jane@example.com", Password = "password", Phone = "123456789", Comments = new List<Comment>(), DateCreated = DateTime.Now }
+                new Tourist { Id = 1, Name = "John", LastName = "Doe", Mail = "john@example.com", Password = "password", Phone = "123456789", DateCreated = DateTime.Now },
+                new Tourist { Id = 2, Name = "Jane", LastName = "Doe", Mail = "jane@example.com", Password = "password", Phone = "123456789", DateCreated = DateTime.Now }
             };
             touristDataMock.GetByPhone(Arg.Any<Tourist>()).Returns(Task.FromResult(fakeTouristList));
 
@@ -134,7 +134,7 @@ public class TouristControllerTest
             var touristController = new TouristController(touristDomainMock, touristDataMock, mapperMock);
 
             var touristRequest = new TouristRequest { Name = "John", LastName = "Doe", Mail = "john@example.com", Password = "password", Phone = "123456789" };
-            var fakeTourist = new Tourist { Id = 1, Name = "John", LastName = "Doe", Mail = "john@example.com", Password = "password", Phone = "123456789", Comments = new List<Comment>(), DateCreated = DateTime.Now };
+            var fakeTourist = new Tourist { Id = 1, Name = "John", LastName = "Doe", Mail = "john@example.com", Password = "password", Phone = "123456789", DateCreated = DateTime.Now };
 
             touristDomainMock.Create(Arg.Is<Tourist>(t =>
                 t.Name == fakeTourist.Name &&
@@ -161,7 +161,7 @@ public class TouristControllerTest
             var touristController = new TouristController(touristDomainMock, touristDataMock, mapperMock);
 
             var touristRequest = new TouristRequest { Name = "John", LastName = "Doe", Mail = "john@example.com", Password = "password", Phone = "123456789" };
-            var fakeTourist = new Tourist { Id = 1, Name = "John", LastName = "Doe", Mail = "john@example.com", Password = "password", Phone = "123456789", Comments = new List<Comment>(), DateCreated = DateTime.Now };
+            var fakeTourist = new Tourist { Id = 1, Name = "John", LastName = "Doe", Mail = "john@example.com", Password = "password", Phone = "123456789", DateCreated = DateTime.Now };
 
             touristDomainMock.Create(Arg.Is<Tourist>(t =>
                 t.Name == fakeTourist.Name &&

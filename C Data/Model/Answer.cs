@@ -3,9 +3,6 @@
 public class Answer : Base
 {
     public string response { get; set; }
-    public int CommentId { get; set; }
-    public Comment Comment { get; set; }
-    public int CompanyId { get; set; }
-    public Company Company { get; set; }
-
+    //public List<Comment> Comments { get; set; }
+    public List<Company> Companies { get; set; }
 }

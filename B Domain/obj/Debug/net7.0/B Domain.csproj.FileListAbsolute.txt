@@ -103,3 +103,5 @@ C:\Users\CARLIÑO\Desktop\WebService-Backend\B Domain\obj\Debug\net7.0\B Domain.
 C:\Users\CARLIÑO\Desktop\WebService-Backend\B Domain\obj\Debug\net7.0\refint\B Domain.dll
 C:\Users\CARLIÑO\Desktop\WebService-Backend\B Domain\obj\Debug\net7.0\B Domain.pdb
 C:\Users\CARLIÑO\Desktop\WebService-Backend\B Domain\obj\Debug\net7.0\ref\B Domain.dll
+C:\GithubProjects\Backend\B Domain\bin\Debug\net7.0\D Shared.dll
+C:\GithubProjects\Backend\B Domain\bin\Debug\net7.0\D Shared.pdb

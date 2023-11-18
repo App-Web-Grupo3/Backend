@@ -47,8 +47,6 @@ namespace Data.Persistencia
 
                 if (existingFavorites != null)
                 {
-                    existingFavorites.TouristId = favorites.TouristId;
-                    existingFavorites.ActivitiesId = favorites.ActivitiesId;
                     existingFavorites.DateUpdated = DateTime.Now;
 
                     _appDbContext.Favorites.Update(existingFavorites);

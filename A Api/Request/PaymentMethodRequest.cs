@@ -20,6 +20,5 @@ public class PaymentMethodRequest
     [MaxLength(4)]
     public int CVC { get; set; }
 
-    public int TouristId { get; set; }
 
 }

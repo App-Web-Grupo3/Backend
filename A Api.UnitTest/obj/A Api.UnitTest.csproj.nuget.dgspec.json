@@ -1,36 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\A Api.UnitTest\\A Api.UnitTest.csproj": {}
+    "C:\\GithubProjects\\Backend\\A Api.UnitTest\\A Api.UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\A Api.UnitTest\\A Api.UnitTest.csproj": {
+    "C:\\GithubProjects\\Backend\\A Api.UnitTest\\A Api.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\A Api.UnitTest\\A Api.UnitTest.csproj",
+        "projectUniqueName": "C:\\GithubProjects\\Backend\\A Api.UnitTest\\A Api.UnitTest.csproj",
         "projectName": "A Api.UnitTest",
-        "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\A Api.UnitTest\\A Api.UnitTest.csproj",
-        "packagesPath": "C:\\Users\\CARLIÑO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\A Api.UnitTest\\obj\\",
+        "projectPath": "C:\\GithubProjects\\Backend\\A Api.UnitTest\\A Api.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\JORGE\\.nuget\\packages\\",
+        "outputPath": "C:\\GithubProjects\\Backend\\A Api.UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CARLIÑO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\JORGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\A Api\\A Api.csproj": {
-                "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\A Api\\A Api.csproj"
+              "C:\\GithubProjects\\Backend\\A Api\\A Api.csproj": {
+                "projectPath": "C:\\GithubProjects\\Backend\\A Api\\A Api.csproj"
               },
-              "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain\\B Domain.csproj": {
-                "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain\\B Domain.csproj"
+              "C:\\GithubProjects\\Backend\\B Domain\\B Domain.csproj": {
+                "projectPath": "C:\\GithubProjects\\Backend\\B Domain\\B Domain.csproj"
               }
             }
           }
@@ -94,38 +96,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.311\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\A Api\\A Api.csproj": {
+    "C:\\GithubProjects\\Backend\\A Api\\A Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\A Api\\A Api.csproj",
+        "projectUniqueName": "C:\\GithubProjects\\Backend\\A Api\\A Api.csproj",
         "projectName": "A Api",
-        "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\A Api\\A Api.csproj",
-        "packagesPath": "C:\\Users\\CARLIÑO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\A Api\\obj\\",
+        "projectPath": "C:\\GithubProjects\\Backend\\A Api\\A Api.csproj",
+        "packagesPath": "C:\\Users\\JORGE\\.nuget\\packages\\",
+        "outputPath": "C:\\GithubProjects\\Backend\\A Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CARLIÑO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\JORGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.311\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain\\B Domain.csproj": {
-                "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain\\B Domain.csproj"
+              "C:\\GithubProjects\\Backend\\B Domain\\B Domain.csproj": {
+                "projectPath": "C:\\GithubProjects\\Backend\\B Domain\\B Domain.csproj"
               },
-              "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj": {
-                "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj"
+              "C:\\GithubProjects\\Backend\\C Data\\C Data.csproj": {
+                "projectPath": "C:\\GithubProjects\\Backend\\C Data\\C Data.csproj"
               }
             }
           }
@@ -156,6 +160,10 @@
               "target": "Package",
               "version": "[7.0.4, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[7.0.11, )"
@@ -184,34 +192,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.311\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain\\B Domain.csproj": {
+    "C:\\GithubProjects\\Backend\\B Domain\\B Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain\\B Domain.csproj",
+        "projectUniqueName": "C:\\GithubProjects\\Backend\\B Domain\\B Domain.csproj",
         "projectName": "B Domain",
-        "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain\\B Domain.csproj",
-        "packagesPath": "C:\\Users\\CARLIÑO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain\\obj\\",
+        "projectPath": "C:\\GithubProjects\\Backend\\B Domain\\B Domain.csproj",
+        "packagesPath": "C:\\Users\\JORGE\\.nuget\\packages\\",
+        "outputPath": "C:\\GithubProjects\\Backend\\B Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CARLIÑO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\JORGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj": {
-                "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj"
+              "C:\\GithubProjects\\Backend\\C Data\\C Data.csproj": {
+                "projectPath": "C:\\GithubProjects\\Backend\\C Data\\C Data.csproj"
+              },
+              "C:\\GithubProjects\\Backend\\D Shared\\D Shared.csproj": {
+                "projectPath": "C:\\GithubProjects\\Backend\\D Shared\\D Shared.csproj"
               }
             }
           }
@@ -225,6 +238,24 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -241,26 +272,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.311\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj": {
+    "C:\\GithubProjects\\Backend\\C Data\\C Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj",
+        "projectUniqueName": "C:\\GithubProjects\\Backend\\C Data\\C Data.csproj",
         "projectName": "C Data",
-        "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj",
-        "packagesPath": "C:\\Users\\CARLIÑO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\obj\\",
+        "projectPath": "C:\\GithubProjects\\Backend\\C Data\\C Data.csproj",
+        "packagesPath": "C:\\Users\\JORGE\\.nuget\\packages\\",
+        "outputPath": "C:\\GithubProjects\\Backend\\C Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CARLIÑO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\JORGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -295,6 +328,10 @@
               "target": "Package",
               "version": "[8.0.0-rc.2.23479.6, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -316,7 +353,68 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.311\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GithubProjects\\Backend\\D Shared\\D Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GithubProjects\\Backend\\D Shared\\D Shared.csproj",
+        "projectName": "D Shared",
+        "projectPath": "C:\\GithubProjects\\Backend\\D Shared\\D Shared.csproj",
+        "packagesPath": "C:\\Users\\JORGE\\.nuget\\packages\\",
+        "outputPath": "C:\\GithubProjects\\Backend\\D Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\JORGE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.311\\RuntimeIdentifierGraph.json"
         }
       }
     }
