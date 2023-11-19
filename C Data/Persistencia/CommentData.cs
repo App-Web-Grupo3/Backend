@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Data.Persistencia;
 
-public class CommentData :ICommentData
+public class CommentData : ICommentData
 {
     private readonly AppDbContext _appDbContext;
     
@@ -29,7 +29,6 @@ public class CommentData :ICommentData
     {
         return await _appDbContext.Comments.Where(c => c.IsActive == true).ToListAsync();
     }
-    
 
     public async Task<bool> Create(Comment comment)
     {
@@ -52,7 +51,7 @@ public class CommentData :ICommentData
         {
             var commentUpdated = _appDbContext.Comments.Where(c => c.Id == id).FirstOrDefault();
 
-            commentUpdated.Content = comment.Content;
+            commentUpdated.Content = commentUpdated.Content;
             commentUpdated.DateUpdated = DateTime.Now;
 
             _appDbContext.Comments.Update(commentUpdated);
