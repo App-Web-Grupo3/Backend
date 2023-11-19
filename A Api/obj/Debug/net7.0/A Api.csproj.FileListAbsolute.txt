@@ -1471,3 +1471,10 @@ C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.
 C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
 C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\D Shared.dll
 C:\GithubProjects\Backend\A Api\bin\Debug\net7.0\D Shared.pdb
+C:\Users\CARLIÑO\Desktop\WebService-Backend\A Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\CARLIÑO\Desktop\WebService-Backend\A Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\CARLIÑO\Desktop\WebService-Backend\A Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\CARLIÑO\Desktop\WebService-Backend\A Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\CARLIÑO\Desktop\WebService-Backend\A Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\CARLIÑO\Desktop\WebService-Backend\A Api\bin\Debug\net7.0\D Shared.dll
+C:\Users\CARLIÑO\Desktop\WebService-Backend\A Api\bin\Debug\net7.0\D Shared.pdb

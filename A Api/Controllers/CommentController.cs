@@ -18,46 +18,44 @@ namespace UniqueTrip.Controllers
     public class CommentController : ControllerBase
     {
         private readonly ICommentDomain _commentDomain;
-        private readonly ICommentData _commentData;
         private readonly IMapper _mapper;
         
-        public CommentController(ICommentDomain commentDomain, ICommentData commentData, IMapper mapper)
+        public CommentController(ICommentDomain commentDomain, IMapper mapper)
         {
             _commentDomain = commentDomain;
-            _commentData = commentData;
             _mapper = mapper;
         }
-        // GET: api/Activities
-        [HttpGet("all")]
+        // GET: api/Response
+        [HttpGet("GetAllComments")]
         public async Task<List<CommentResponse>> GetAll()
         {
-            var response = await _commentData.GetAll();
+            var response = await _commentDomain.GetAll();
             var result = _mapper.Map<List<Comment>, List<CommentResponse>>(response);
             return result;
         }
 
-        // GET: api/Activities/5
-        [HttpGet("id/{id}")]
+        // GET: api/Company/5
+        [HttpGet("{id}", Name = "GetCommentById")]
         public async Task<CommentResponse> GetById(int id)
         {
-            var response = await _commentData.GetById(id);
-            var result = _mapper.Map<Comment, CommentResponse>(response);
-            return result;
+            var comment = await _commentDomain.GetById(id);
+            var response = _mapper.Map<Comment, CommentResponse>(comment);
+            return response;
         }
-
-        // GET: api/Activities/title
-        [HttpGet("title/{title}")]
+        // GET: api/Company/name
+        [HttpGet("GetCommentByContent")]
         public async Task<List<CommentResponse>> GetByContent(string content)
         {
-            Comment initial = new Comment()
+            Comment comment = new Comment()
             {
                 Content = content,
             };
-            var response = await _commentData.GetByContent(initial);
-            var result = _mapper.Map<List<Comment>, List<CommentResponse>>(response);
-            return result;
+            var commentByContent = await _commentDomain.GetByContent(comment);
+            var response = _mapper.Map<List<Comment>, List<CommentResponse>>(commentByContent);
+            return response;
         }
-        // POST: api/Activities
+        
+        // POST: api/Company
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] CommentRequest commentRequest)
         {
@@ -68,8 +66,8 @@ namespace UniqueTrip.Controllers
                     return BadRequest();
                 }
 
-                var result = _mapper.Map<CommentRequest, Comment>(commentRequest);
-                return Ok(await _commentDomain.Create(result));
+                var tourist = _mapper.Map<CommentRequest, Comment>(commentRequest);
+                return Ok(await _commentDomain.Create(tourist));
             }
             catch (Exception e)
             {
@@ -77,8 +75,8 @@ namespace UniqueTrip.Controllers
             }
         }
 
-        // PUT: api/Activities/5
-        [HttpPut("id/{id}")]
+        // PUT: api/Company/5
+        [HttpPut("{id}")]
         public async Task<IActionResult> Put(int id, [FromBody] CommentRequest commentRequest)
         {
             try
@@ -88,8 +86,8 @@ namespace UniqueTrip.Controllers
                     return BadRequest();
                 }
 
-                var result = _mapper.Map<CommentRequest, Comment>(commentRequest);
-                return Ok(await _commentDomain.Update(result, id));
+                var tourist = _mapper.Map<CommentRequest, Comment>(commentRequest);
+                return Ok(await _commentDomain.Update(tourist, id));
             }
             catch (Exception e)
             {
@@ -97,12 +95,11 @@ namespace UniqueTrip.Controllers
             }
         }
 
-        // DELETE: api/Activities/5
-        [HttpDelete("id/{id}")]
+        // DELETE: api/Company/5
+        [HttpDelete("{id}")]
         public async Task<bool> Delete(int id)
         {
             return await _commentDomain.Delete(id);
         }
-
     }
 }
