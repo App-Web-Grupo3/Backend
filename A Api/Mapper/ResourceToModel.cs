@@ -19,5 +19,6 @@ public class ResourceToModel : Profile
         CreateMap<UserRegisterRequest, UserBase>();
         
         CreateMap<PurchaseDetailRequest, PurchaseDetail>();
+        CreateMap<CommentRequest, Comment>();
     }
 }

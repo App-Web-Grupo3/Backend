@@ -22,7 +22,7 @@ public class AppDbContext : DbContext
     public DbSet<PaymentMethod> PaymentMethods { get; set; }
     public DbSet<User> Users { get; set; }
     public DbSet<UserRole> UserRoles { get; set; }
-    
+    public DbSet<Comment> Comments { get; set; }
     public DbSet<PurchaseDetail> PurchaseDetails { get; set; }
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -117,6 +117,13 @@ public class AppDbContext : DbContext
         builder.Entity<PurchaseDetail>().Property(p => p.PaymentDate).HasDefaultValue(DateTime.Now);
         builder.Entity<PurchaseDetail>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
         builder.Entity<PurchaseDetail>().Property(p => p.IsActive).HasDefaultValue(true);
+        
+        
+        builder.Entity<Comment>().ToTable("Comments");
+        builder.Entity<Comment>().HasKey(p => p.Id);
+        builder.Entity<Comment>().Property(p => p.Content).IsRequired().HasMaxLength(20);
+        builder.Entity<Comment>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
+        builder.Entity<Comment>().Property(p => p.IsActive).HasDefaultValue(true);
         
         builder.Entity<User>().ToTable("Users");
         builder.Entity<User>().HasKey(p => p.Id);

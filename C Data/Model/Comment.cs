@@ -2,9 +2,11 @@
 
 public class Comment : Base
 {
-    public string? comment { get; set; }
-    //public List<Tourist> Tourists { get; set; }
-    //public List<Activities> Activities { get; set; }
-    //public int AnswerId { get; set; }
-    // public Answer Answer { get; set; }
+    public string? Content { get; set; }
+    public int ActivitiesId { get; set; }
+    public Activities Activities { get; set; }
+    public int TouristId { get; set; }
+    public Tourist Tourist { get; set; }
+    public List<Answer> Answers { get; set; }
+
 }
