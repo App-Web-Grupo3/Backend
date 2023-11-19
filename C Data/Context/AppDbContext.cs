@@ -23,7 +23,6 @@ public class AppDbContext : DbContext
     public DbSet<PaymentMethod> PaymentMethods { get; set; }
     public DbSet<User> Users { get; set; }
     public DbSet<UserRole> UserRoles { get; set; }
-    public DbSet<Comment> Comments { get; set; }
     public DbSet<PurchaseDetail> PurchaseDetails { get; set; }
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -94,8 +93,7 @@ public class AppDbContext : DbContext
         builder.Entity<Favorites>().HasKey(p => p.Id);
         builder.Entity<Favorites>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
         builder.Entity<Favorites>().Property(p => p.IsActive).HasDefaultValue(true);
-
-
+        
         builder.Entity<PaymentMethod>().ToTable("PaymentMethods");
         builder.Entity<PaymentMethod>().HasKey(p => p.Id);
         builder.Entity<PaymentMethod>().Property(p => p.CardNumber).IsRequired().HasMaxLength(16);
@@ -109,7 +107,7 @@ public class AppDbContext : DbContext
         builder.Entity<Company>().Property(p => p.Name).IsRequired().HasMaxLength(20);
         builder.Entity<Company>().Property(p => p.Mail).IsRequired().HasMaxLength(20);
         builder.Entity<Company>().Property(p => p.Description).IsRequired().HasMaxLength(50);
-        builder.Entity<Company>().Property(p => p.Ruc).IsRequired().HasMaxLength(9);
+        builder.Entity<Company>().Property(p => p.Ruc).IsRequired().HasMaxLength(11);
         builder.Entity<Company>().Property(p => p.Phone).IsRequired().HasMaxLength(9);
         builder.Entity<Company>().Property(p => p.Address).IsRequired().HasMaxLength(50);
         builder.Entity<Company>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
@@ -123,13 +121,6 @@ public class AppDbContext : DbContext
         builder.Entity<PurchaseDetail>().Property(p => p.PaymentDate).HasDefaultValue(DateTime.Now);
         builder.Entity<PurchaseDetail>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
         builder.Entity<PurchaseDetail>().Property(p => p.IsActive).HasDefaultValue(true);
-        
-        
-        builder.Entity<Comment>().ToTable("Comments");
-        builder.Entity<Comment>().HasKey(p => p.Id);
-        builder.Entity<Comment>().Property(p => p.Content).IsRequired().HasMaxLength(20);
-        builder.Entity<Comment>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
-        builder.Entity<Comment>().Property(p => p.IsActive).HasDefaultValue(true);
         
         builder.Entity<User>().ToTable("Users");
         builder.Entity<User>().HasKey(p => p.Id);

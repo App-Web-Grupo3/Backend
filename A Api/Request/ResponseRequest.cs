@@ -8,6 +8,6 @@ public class ResponseRequest
     [MaxLength(50)]
     public string response{ get; set; }
     public int? CompanyId { get; set; }
-    //public int? CommentId { get; set; }
+    public int? CommentId { get; set; }
 
 }

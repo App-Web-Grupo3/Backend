@@ -41,13 +41,9 @@ builder.Services.AddScoped<IFavoritesDomain, FavoritesDomain>();
 builder.Services.AddScoped<IFavoritesData, FavoritesData>();
 builder.Services.AddScoped<ICommentDomain, CommentDomain>();
 builder.Services.AddScoped<ICommentData, CommentData>();
-
 builder.Services.AddScoped<IPurchaseDetailDomain, PurchaseDetailDomain>();
 builder.Services.AddScoped<IPurchaseDetailData, PurchaseDetailData>();
 
-
-builder.Services.AddScoped<ICommentDomain, CommentDomain>();
-builder.Services.AddScoped<ICommentData, CommentData>();
 
 //Cors
 builder.Services.AddCors(options =>

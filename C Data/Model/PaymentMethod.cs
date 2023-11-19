@@ -1,4 +1,6 @@
-﻿namespace Data.Model;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Data.Model;
 
 public class PaymentMethod: Base
 {

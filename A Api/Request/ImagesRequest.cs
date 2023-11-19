@@ -8,5 +8,5 @@ public class ImagesRequest
     public string Url { get; set; }
     [Required]
     public string Description { get; set; }
-    public int? ActivitiesId { get; set; }
+    public int ActivitiesId { get; set; }
 }
