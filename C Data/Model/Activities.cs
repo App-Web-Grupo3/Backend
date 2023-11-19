@@ -1,4 +1,5 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace Data.Model;
 
@@ -11,13 +12,13 @@ public class Activities : Base
     public bool Restriction { get; set; }
     public int People { get; set; }
     public float Price { get; set; }
+    public int CompanyId { get; set; }
+    [ForeignKey("CompanyId")]
+    public Company Company { get; set; }
+    public List<Comment> Comments { get; set; }
     [JsonIgnore]
-    //public int CommentId { get; set; }
-    //public Comment Comment { get; set; }
-    public int FavoritesId { get; set; }
-    public Favorites Favorites { get; set; }
-    public int ImagesId { get; set; }
-    public Images Images { get; set; }
-    public List<Company> Companies { get; set; }
+    public List<Favorites> Favorites { get; set; }
+    [JsonIgnore]
+    public List<Images> Images { get; set; }
     
 }

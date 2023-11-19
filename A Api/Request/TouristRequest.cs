@@ -18,7 +18,4 @@ public class TouristRequest
     public string Phone { get; set; }
     [Required]
     public string SelectedRole { get; set; }
-    public int? FavoritesId { get; set; }
-    //public int? PaymentMethodId { get; set; }
-    //public int? CommentId { get; set; }
 }

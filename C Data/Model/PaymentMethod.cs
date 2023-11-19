@@ -7,6 +7,8 @@ public class PaymentMethod: Base
     public int? Month { get; set; }
     public int? Year { get; set; }
     public int? CVC { get; set; }
-    //public List<Tourist> Tourists { get; set; }
+    //public int TouristId {get; set;}
+    //[ForeignKey("TouristId")]
+    //public Tourist Tourist { get; set; }
     
 }

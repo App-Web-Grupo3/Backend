@@ -18,6 +18,4 @@ public class RepresentativeRequest
     public string Phone { get; set; }
     [Required]
     public string SelectedRole { get; set; }
-    public int? CompanyId { get; set; }
-    
 }

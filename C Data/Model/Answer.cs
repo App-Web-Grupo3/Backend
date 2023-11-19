@@ -1,8 +1,14 @@
-﻿namespace Data.Model;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Data.Model;
 
 public class Answer : Base
 {
     public string response { get; set; }
-    //public List<Comment> Comments { get; set; }
-    public List<Company> Companies { get; set; }
+    public int CommentId { get; set; }
+    [ForeignKey("CommentId")]
+    public Comment Commment { get; set; }
+    public int CompanyId { get; set; }
+    [ForeignKey("CompanyId")]
+    public Company Company { get; set; }
 }
