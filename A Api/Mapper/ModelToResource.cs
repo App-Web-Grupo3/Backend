@@ -27,6 +27,8 @@ public class ModelToResource : Profile
         CreateMap<UserBase, UserLoginRequest>();
         CreateMap<UserBase, UserResponse>();
         
+        CreateMap<PurchaseDetail, PurchaseDetailRequest>();
+        CreateMap<PurchaseDetail, PurchaseDetailResponse>();
     }
     
 }

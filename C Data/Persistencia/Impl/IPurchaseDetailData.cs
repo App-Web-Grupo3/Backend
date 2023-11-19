@@ -1,6 +1,8 @@
-﻿namespace Data.Persistencia;
+﻿using Data.Model;
 
-public interface IPurchaseDetail
+namespace Data.Persistencia;
+
+public interface IPurchaseDetailData
 {
     public Task<PurchaseDetail> GetById(int id);
     public Task<List<PurchaseDetail>> GetByState(PurchaseDetail purchaseDetail);

@@ -1,6 +1,8 @@
-﻿namespace Data.Model;
+﻿using System.Runtime.InteropServices.JavaScript;
 
-public class PurchaseDetail
+namespace Data.Model;
+
+public class PurchaseDetail : Base
 {
     public string? State { get; set; }
     
@@ -10,5 +12,6 @@ public class PurchaseDetail
     
     public int TouristId { get; set; }
     public Tourist Tourist { get; set; }
-    public List<Activities> Activities { get; set; }
+    public int ActivitiesId { get; set; }
+    public Activities Activities { get; set; }
 }

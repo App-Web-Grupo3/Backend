@@ -20,4 +20,6 @@ public class Activities : Base
     public Images Images { get; set; }
     public List<Company> Companies { get; set; }
     
+    public List<PurchaseDetail> PurchaseDetails { get; set; }
+    
 }

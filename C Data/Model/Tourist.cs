@@ -11,4 +11,5 @@ public class Tourist : UserBase
     //public int? CommentId { get; set; }
     //public Comment Comment { get; set; }
     public UserRole? UserRole { get; set; }
+    public List<PurchaseDetail> PurchaseDetails { get; set; }
 }

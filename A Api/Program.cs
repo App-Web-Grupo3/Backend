@@ -40,6 +40,9 @@ builder.Services.AddScoped<IPaymentMethodData, PaymentMethodData>();
 builder.Services.AddScoped<IFavoritesDomain, FavoritesDomain>();
 builder.Services.AddScoped<IFavoritesData, FavoritesData>();
 
+builder.Services.AddScoped<IPurchaseDetailDomain, PurchaseDetailDomain>();
+builder.Services.AddScoped<IPurchaseDetailData, PurchaseDetailData>();
+
 //Cors
 builder.Services.AddCors(options =>
 {
