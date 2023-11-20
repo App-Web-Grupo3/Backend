@@ -1,37 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\UPC\\AppsWeb\\Backend\\A Api\\A Api.csproj": {}
+    "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\A Api\\A Api.csproj": {}
   },
   "projects": {
-    "C:\\Development\\UPC\\AppsWeb\\Backend\\A Api\\A Api.csproj": {
+    "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\A Api\\A Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\UPC\\AppsWeb\\Backend\\A Api\\A Api.csproj",
+        "projectUniqueName": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\A Api\\A Api.csproj",
         "projectName": "A Api",
-        "projectPath": "C:\\Development\\UPC\\AppsWeb\\Backend\\A Api\\A Api.csproj",
-        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\UPC\\AppsWeb\\Backend\\A Api\\obj\\",
+        "projectPath": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\A Api\\A Api.csproj",
+        "packagesPath": "C:\\Users\\alyne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\A Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\alyne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Users\\Jack\\.dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Development\\UPC\\AppsWeb\\Backend\\B Domain\\B Domain.csproj": {
-                "projectPath": "C:\\Development\\UPC\\AppsWeb\\Backend\\B Domain\\B Domain.csproj"
+              "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\B Domain\\B Domain.csproj": {
+                "projectPath": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\B Domain\\B Domain.csproj"
               },
-              "C:\\Development\\UPC\\AppsWeb\\Backend\\C Data\\C Data.csproj": {
-                "projectPath": "C:\\Development\\UPC\\AppsWeb\\Backend\\C Data\\C Data.csproj"
+              "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\C Data\\C Data.csproj": {
+                "projectPath": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\C Data\\C Data.csproj"
               }
             }
           }
@@ -94,37 +100,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Jack\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Development\\UPC\\AppsWeb\\Backend\\B Domain\\B Domain.csproj": {
+    "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\B Domain\\B Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\UPC\\AppsWeb\\Backend\\B Domain\\B Domain.csproj",
+        "projectUniqueName": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\B Domain\\B Domain.csproj",
         "projectName": "B Domain",
-        "projectPath": "C:\\Development\\UPC\\AppsWeb\\Backend\\B Domain\\B Domain.csproj",
-        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\UPC\\AppsWeb\\Backend\\B Domain\\obj\\",
+        "projectPath": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\B Domain\\B Domain.csproj",
+        "packagesPath": "C:\\Users\\alyne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\B Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\alyne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Development\\UPC\\AppsWeb\\Backend\\C Data\\C Data.csproj": {
-                "projectPath": "C:\\Development\\UPC\\AppsWeb\\Backend\\C Data\\C Data.csproj"
+              "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\C Data\\C Data.csproj": {
+                "projectPath": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\C Data\\C Data.csproj"
               },
-              "C:\\Development\\UPC\\AppsWeb\\Backend\\D Shared\\D Shared.csproj": {
-                "projectPath": "C:\\Development\\UPC\\AppsWeb\\Backend\\D Shared\\D Shared.csproj"
+              "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\D Shared\\D Shared.csproj": {
+                "projectPath": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\D Shared\\D Shared.csproj"
               }
             }
           }
@@ -172,26 +185,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Jack\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Development\\UPC\\AppsWeb\\Backend\\C Data\\C Data.csproj": {
+    "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\C Data\\C Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\UPC\\AppsWeb\\Backend\\C Data\\C Data.csproj",
+        "projectUniqueName": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\C Data\\C Data.csproj",
         "projectName": "C Data",
-        "projectPath": "C:\\Development\\UPC\\AppsWeb\\Backend\\C Data\\C Data.csproj",
-        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\UPC\\AppsWeb\\Backend\\C Data\\obj\\",
+        "projectPath": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\C Data\\C Data.csproj",
+        "packagesPath": "C:\\Users\\alyne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\C Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\alyne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -251,26 +271,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Jack\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Development\\UPC\\AppsWeb\\Backend\\D Shared\\D Shared.csproj": {
+    "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\D Shared\\D Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\UPC\\AppsWeb\\Backend\\D Shared\\D Shared.csproj",
+        "projectUniqueName": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\D Shared\\D Shared.csproj",
         "projectName": "D Shared",
-        "projectPath": "C:\\Development\\UPC\\AppsWeb\\Backend\\D Shared\\D Shared.csproj",
-        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\UPC\\AppsWeb\\Backend\\D Shared\\obj\\",
+        "projectPath": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\D Shared\\D Shared.csproj",
+        "packagesPath": "C:\\Users\\alyne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\D Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\alyne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -310,7 +337,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Jack\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

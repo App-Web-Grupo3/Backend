@@ -28,9 +28,8 @@ public class AppDbContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
 
-        var serverVersion = new MySqlServerVersion(new Version(8, 0, 29));
-        optionsBuilder.UseMySql("Server=127.0.0.1,3306;Uid=root;Pwd=Admin#123456;Database=uniquetrip;", serverVersion);
-
+     
+        var connectionString = "server=viaduct.proxy.rlwy.net;port=37660;user=root;password=BH3c2BefCgC3e64CA3DG4FCCbcc1EEFB;database=railway";
     }
 
     protected override void OnModelCreating(ModelBuilder builder)
