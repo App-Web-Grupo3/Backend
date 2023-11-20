@@ -72,6 +72,8 @@ builder.Services.AddAutoMapper(
     typeof(UserBaseTo)
 );
 
+// The following line enables Application Insights telemetry collection.
+builder.Services.AddApplicationInsightsTelemetry();
 
 var app = builder.Build();
 
