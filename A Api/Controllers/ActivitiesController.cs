@@ -6,6 +6,7 @@ using AutoMapper;
 using Data.Model;
 using Data.Persistencia.Impl;
 using Domain.Service.Impl;
+using Microsoft.ApplicationInsights;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using UniqueTrip.Request;
@@ -20,12 +21,15 @@ namespace UniqueTrip.Controllers
         private readonly IActivitiesDomain _activitiesDomain;
         private readonly IActivitiesData _activitiesData;
         private readonly IMapper _mapper;
+        private TelemetryClient _telemetry;
         
-        public ActivitiesController(IActivitiesDomain activitiesDomain, IActivitiesData activitiesData, IMapper mapper)
+        public ActivitiesController(IActivitiesDomain activitiesDomain, IActivitiesData activitiesData, 
+            IMapper mapper, TelemetryClient telemetry)
         {
             _activitiesDomain = activitiesDomain;
             _activitiesData = activitiesData;
             _mapper = mapper;
+            _telemetry = telemetry;
         }
         // GET: api/Activities
         [HttpGet("all")]
@@ -85,14 +89,17 @@ namespace UniqueTrip.Controllers
             {
                 if (!ModelState.IsValid)
                 {
+                    _telemetry.TrackTrace("Put Bad Request");
                     return BadRequest();
                 }
 
                 var result = _mapper.Map<ActivitiesRequest, Activities>(activitiesRequest);
+                _telemetry.TrackEvent("Put");
                 return Ok(await _activitiesDomain.Update(result, id));
             }
             catch (Exception e)
             {
+                _telemetry.TrackException(e);
                 return StatusCode(500);
             }
         }
