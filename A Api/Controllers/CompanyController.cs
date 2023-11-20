@@ -113,5 +113,21 @@ namespace UniqueTrip.Controllers
         {
             return await _companyDomain.Delete(id);
         }
+        // Agrega este método a tu clase CompanyController
+        
+        
+        
+        // Agrega este método a tu clase CompanyController
+        [HttpGet("representative/{representativeId}")]
+        public async Task<List<CompanyResponse>> GetByRepresentativeId(int representativeId)
+        {
+            var companies = await _companyDomain.GetByRepresentativeId(representativeId);
+            var response = _mapper.Map<List<Company>, List<CompanyResponse>>(companies);
+            return response;
+        }
+
     }
+    
+   
+
 }

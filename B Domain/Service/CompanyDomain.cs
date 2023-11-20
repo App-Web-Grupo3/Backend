@@ -100,4 +100,10 @@ public class CompanyDomain : ICompanyDomain
             return false;
         }
     }
+    
+    public async Task<List<Company>> GetByRepresentativeId(int representativeId)
+    {
+        return await _companyData.GetByRepresentativeId(representativeId);
+    }
+
 }

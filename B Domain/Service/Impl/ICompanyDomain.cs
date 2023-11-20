@@ -11,4 +11,5 @@ public interface ICompanyDomain
     public Task<bool> Create(Company company);
     public Task<bool> Update(Company company, int id);
     public Task<bool> Delete(int id);
+    public Task<List<Company>> GetByRepresentativeId(int representativeId);
 }

@@ -29,7 +29,7 @@ public class AppDbContext : DbContext
     {
 
         var serverVersion = new MySqlServerVersion(new Version(8, 0, 29));
-        optionsBuilder.UseMySql("Server=127.0.0.1,3306;Uid=root;Pwd=12345;Database=uniquetrip;", serverVersion);
+        optionsBuilder.UseMySql("Server=127.0.0.1,3306;Uid=root;Pwd=c0mpl1ces;Database=uniquetrip;", serverVersion);
 
     }
 

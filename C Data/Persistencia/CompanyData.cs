@@ -13,10 +13,13 @@ public class CompanyData : ICompanyData
     {
         _appDbContext = appDbContext;
     }
-    
+
     public async Task<Company> GetById(int id)
     {
-        return await _appDbContext.Companies.Where(c => c.Id == id && c.IsActive == true).FirstOrDefaultAsync();
+        return await _appDbContext.Companies
+            .Include(r => r.Representative)
+            .Where(c => c.Id == id && c.IsActive == true)
+            .FirstOrDefaultAsync();
     }
 
     public async Task<List<Company>> GetByName(Company company)
@@ -94,4 +97,13 @@ public class CompanyData : ICompanyData
             return false;
         }
     }
+    
+    // Agrega este método a tu clase CompanyData
+    public async Task<List<Company>> GetByRepresentativeId(int representativeId)
+    {
+        return await _appDbContext.Companies
+            .Where(c => c.RepresentativeId == representativeId && c.IsActive == true)
+            .ToListAsync();
+    }
+
 }
