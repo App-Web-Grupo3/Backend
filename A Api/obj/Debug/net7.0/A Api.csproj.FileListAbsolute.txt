@@ -1722,3 +1722,10 @@ C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones we
 C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\A Api\obj\Debug\net7.0\A Api.pdb
 C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\A Api\obj\Debug\net7.0\A Api.genruntimeconfig.cache
 C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\A Api\obj\Debug\net7.0\ref\A Api.dll
+C:\Development\UPC\AppsWeb\Backend\A Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Development\UPC\AppsWeb\Backend\A Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Development\UPC\AppsWeb\Backend\A Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Development\UPC\AppsWeb\Backend\A Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Development\UPC\AppsWeb\Backend\A Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Development\UPC\AppsWeb\Backend\A Api\bin\Debug\net7.0\D Shared.dll
+C:\Development\UPC\AppsWeb\Backend\A Api\bin\Debug\net7.0\D Shared.pdb

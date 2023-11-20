@@ -31,15 +31,8 @@ public class ImagesDomain : IImagesDomain
     {
         try
         {
-            var result = await _imagesData.GetById(images.Id);
-
-            if (result != null)
-            {
-                Console.WriteLine("Domain:)");
-                return await _imagesData.Create(images);
-            }
-            Console.WriteLine("pipipiDomain");
-            return false;
+            Console.WriteLine("Domain:)");
+            return await _imagesData.Create(images);
         }
         catch (Exception e)
         {

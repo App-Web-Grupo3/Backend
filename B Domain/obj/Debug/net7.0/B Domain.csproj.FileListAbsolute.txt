@@ -124,3 +124,5 @@ C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones we
 C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\obj\Debug\net7.0\refint\B Domain.dll
 C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\obj\Debug\net7.0\B Domain.pdb
 C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\obj\Debug\net7.0\ref\B Domain.dll
+C:\Development\UPC\AppsWeb\Backend\B Domain\bin\Debug\net7.0\D Shared.dll
+C:\Development\UPC\AppsWeb\Backend\B Domain\bin\Debug\net7.0\D Shared.pdb

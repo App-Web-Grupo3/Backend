@@ -29,7 +29,7 @@ public class AppDbContext : DbContext
     {
 
         var serverVersion = new MySqlServerVersion(new Version(8, 0, 29));
-        optionsBuilder.UseMySql("Server=127.0.0.1,3306;Uid=root;Pwd=c0mpl1ces;Database=uniquetrip;", serverVersion);
+        optionsBuilder.UseMySql("Server=127.0.0.1,3306;Uid=root;Pwd=Admin#123456;Database=uniquetrip;", serverVersion);
 
     }
 
@@ -133,7 +133,6 @@ public class AppDbContext : DbContext
         builder.Entity<UserRole>().Property(ur => ur.RoleType).IsRequired();
         builder.Entity<UserRole>().Property(ur => ur.DateCreated).HasDefaultValue(DateTime.Now);
         builder.Entity<UserRole>().Property(ur => ur.IsActive).HasDefaultValue(true);
-
     }
     
 }
