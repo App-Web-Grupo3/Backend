@@ -59,22 +59,22 @@ namespace UniqueTrip.Controllers
         }
         // POST: api/Activities
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] ActivitiesRequest activitiesRequest)
+        public async Task<IActionResult> Post([FromBody] ActivitiesRequest request)
         {
-            try
+            if (!ModelState.IsValid)
             {
-                if (!ModelState.IsValid)
-                {
-                    return BadRequest();
-                }
+                return BadRequest(ModelState);
+            }
 
-                var result = _mapper.Map<ActivitiesRequest, Activities>(activitiesRequest);
-                return Ok(await _activitiesDomain.Create(result));
-            }
-            catch (Exception e)
+            var activity = _mapper.Map<ActivitiesRequest, Activities>(request);
+
+            var result = await _activitiesDomain.AddActivity(activity);
+
+            if (result.IsSuccess)
             {
-                return StatusCode(500);
+                return Created($"/api/v1/activities/{result.Data.Id}", result.Data);
             }
+            return BadRequest(result.ErrorMessage);
         }
 
         // PUT: api/Activities/5

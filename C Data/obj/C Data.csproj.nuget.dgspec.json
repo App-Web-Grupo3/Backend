@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj": {}
+    "C:\\Development\\UPC\\AppsWeb\\Backend\\C Data\\C Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj": {
+    "C:\\Development\\UPC\\AppsWeb\\Backend\\C Data\\C Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj",
+        "projectUniqueName": "C:\\Development\\UPC\\AppsWeb\\Backend\\C Data\\C Data.csproj",
         "projectName": "C Data",
-        "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj",
-        "packagesPath": "C:\\Users\\CARLIÑO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\obj\\",
+        "projectPath": "C:\\Development\\UPC\\AppsWeb\\Backend\\C Data\\C Data.csproj",
+        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\UPC\\AppsWeb\\Backend\\C Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CARLIÑO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Jack\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

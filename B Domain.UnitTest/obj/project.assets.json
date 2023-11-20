@@ -6491,19 +6491,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CARLIÑO\\.nuget\\packages\\": {}
+    "C:\\Users\\Jack\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj",
+      "projectUniqueName": "C:\\Development\\UPC\\AppsWeb\\Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj",
       "projectName": "B Domain.UnitTest",
-      "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj",
-      "packagesPath": "C:\\Users\\CARLIÑO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain.UnitTest\\obj\\",
+      "projectPath": "C:\\Development\\UPC\\AppsWeb\\Backend\\B Domain.UnitTest\\B Domain.UnitTest.csproj",
+      "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
+      "outputPath": "C:\\Development\\UPC\\AppsWeb\\Backend\\B Domain.UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\CARLIÑO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -6515,11 +6515,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain\\B Domain.csproj": {
-              "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\B Domain\\B Domain.csproj"
+            "C:\\Development\\UPC\\AppsWeb\\Backend\\B Domain\\B Domain.csproj": {
+              "projectPath": "C:\\Development\\UPC\\AppsWeb\\Backend\\B Domain\\B Domain.csproj"
             },
-            "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj": {
-              "projectPath": "C:\\Users\\CARLIÑO\\Desktop\\WebService-Backend\\C Data\\C Data.csproj"
+            "C:\\Development\\UPC\\AppsWeb\\Backend\\C Data\\C Data.csproj": {
+              "projectPath": "C:\\Development\\UPC\\AppsWeb\\Backend\\C Data\\C Data.csproj"
             }
           }
         }
@@ -6575,7 +6575,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Jack\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -19,6 +19,4 @@ public class ActivitiesRequest
     public bool? Restriction { get; set; }
 
     public int CompanyId { get; set; }
-    
-    public int CommentId { get; set; }
 }

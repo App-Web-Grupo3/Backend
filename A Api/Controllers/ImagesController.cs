@@ -47,20 +47,20 @@ namespace UniqueTrip.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] ImagesRequest request)
         {
-            try
+            if (!ModelState.IsValid)
             {
-                if (!ModelState.IsValid)
-                {
-                    return BadRequest();
-                }
+                return BadRequest(ModelState);
+            }
 
-                var result = _mapper.Map<ImagesRequest, Images>(request);
-                return Ok(await _imagesDomain.Create(result));
-            }
-            catch (Exception e)
+            var image = _mapper.Map<ImagesRequest, Images>(request);
+
+            var result = await _imagesDomain.AddImage(image);
+
+            if (result.IsSuccess)
             {
-                return StatusCode(500);
+                return Created($"/api/v1/images/{result.Data.Id}", result.Data);
             }
+            return BadRequest(result.ErrorMessage);
         }
 
         [HttpPut("id/{id}")]

@@ -24,9 +24,4 @@ public class Activities : Base
 
     [JsonIgnore]
     public Favorites Favorites { get; set; }
-     
-    //public int CompanyId { get; set; }
-    //public Company Company { get; set; }
-    //public List<Comment> Comments { get; set; }
-
 }

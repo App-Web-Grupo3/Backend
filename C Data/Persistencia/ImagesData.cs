@@ -25,20 +25,18 @@ public class ImagesData : IImagesData
 
     }
 
-    public async Task<bool> Create(Images images)
+    public async Task<Images> Create(Images images)
     {
         try
         {
             _appDbContext.Images.Add(images);
             await _appDbContext.SaveChangesAsync();
-            Console.WriteLine("Data:)");
-
-            return true;
+            return images;
         }
         catch (Exception e)
         {
-            Console.WriteLine("pipipiData");
-            return false;
+            Console.WriteLine(e);
+            throw new Exception(e.Message);
         }
     }
 
