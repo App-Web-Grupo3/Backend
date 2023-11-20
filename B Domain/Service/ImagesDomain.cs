@@ -27,18 +27,20 @@ public class ImagesDomain : IImagesDomain
         return await _imagesData.GetAll();
     }
 
-    public async Task<bool> Create(Images images)
+    public async Task<ApiResponse<Images>> AddImage(Images image)
     {
         try
         {
-            Console.WriteLine("Domain:)");
-            return await _imagesData.Create(images);
+            //var result = await _imagesData.GetById(images.Id);
+            var createdImage = await _imagesData.Create(image);
+            return ApiResponse<Images>.Success(createdImage);
         }
         catch (Exception e)
         {
-            throw new Exception(e.Message + "pipipi");
+            return ApiResponse<Images>.Error(e.Message);
         }
     }
+
 
     public async Task<bool> Update(Images images, int id)
     {

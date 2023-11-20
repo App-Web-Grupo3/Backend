@@ -31,20 +31,18 @@ public class ActivitiesData : IActivitiesData
 
     }
 
-    public async Task<bool> Create(Activities activity)
+    public async Task<Activities> Create(Activities activity)
     {
         try
         {
             _appDbContext.Activities.Add(activity);
             await _appDbContext.SaveChangesAsync();
-            Console.WriteLine("Data:)");
-
-            return true;
+            return activity;
         }
         catch (Exception e)
         {
-            Console.WriteLine("pipipiData");
-            return false;
+            Console.WriteLine(e);
+            throw new Exception(e.Message);
         }
     }
 

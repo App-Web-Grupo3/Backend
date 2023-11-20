@@ -32,23 +32,21 @@ public class ActivitiesDomain : IActivitiesDomain
         return await _activitiesData.GetAll();
     }
 
-    public async Task<bool> Create(Activities activity)
+    public async Task<ApiResponse<Activities>> AddActivity(Activities activity)
     {
         try
         {
             var result = await _activitiesData.GetByTitle(activity);
-
             if (result != null && result.Count == 0)
             {
-                Console.WriteLine("Domain:)");
-                return await _activitiesData.Create(activity);
+                var createdBooking = await _activitiesData.Create(activity);
+                return ApiResponse<Activities>.Success(createdBooking);
             }
-            Console.WriteLine("pipipiDomain");
-            return false;
+            return ApiResponse<Activities>.Error("Activity already exists");
         }
         catch (Exception e)
         {
-            throw new Exception(e.Message + "pipipi");
+            return ApiResponse<Activities>.Error(e.Message);
         }
     }
 
