@@ -1,0 +1,28 @@
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\B Domain.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\B Domain.deps.json
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\B Domain.pdb
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\AutoMapper.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\Microsoft.EntityFrameworkCore.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\Microsoft.Extensions.Logging.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\Microsoft.Extensions.Options.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\Microsoft.Extensions.Primitives.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\Microsoft.IdentityModel.Logging.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\Microsoft.IdentityModel.Tokens.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\MySqlConnector.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\C Data.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\D Shared.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\C Data.pdb
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\B Domain\bin\Release\net7.0\publish\D Shared.pdb

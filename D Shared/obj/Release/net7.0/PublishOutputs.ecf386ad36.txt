@@ -1,0 +1,6 @@
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\D Shared\bin\Release\net7.0\publish\D Shared.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\D Shared\bin\Release\net7.0\publish\D Shared.deps.json
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\D Shared\bin\Release\net7.0\publish\D Shared.pdb
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\D Shared\bin\Release\net7.0\publish\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\D Shared\bin\Release\net7.0\publish\Microsoft.IdentityModel.Logging.dll
+C:\Users\alyne\OneDrive - Universidad Peruana de Ciencias\2023 2\Aplicaciones web\Proyecto actualizado\WebService-Backend\D Shared\bin\Release\net7.0\publish\Microsoft.IdentityModel.Tokens.dll
