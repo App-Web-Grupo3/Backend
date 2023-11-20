@@ -72,8 +72,8 @@ public class AppDbContext : DbContext
         
         builder.Entity<Activities>().ToTable("Activities");
         builder.Entity<Activities>().HasKey(p => p.Id);
-        builder.Entity<Activities>().Property(p => p.Title).IsRequired().HasMaxLength(20);
-        builder.Entity<Activities>().Property(p => p.Description).IsRequired().HasMaxLength(50);
+        builder.Entity<Activities>().Property(p => p.Title).IsRequired().HasMaxLength(50);
+        builder.Entity<Activities>().Property(p => p.Description).IsRequired().HasMaxLength(300);
         builder.Entity<Activities>().Property(p => p.Discount).HasDefaultValue(false);
         builder.Entity<Activities>().Property(p => p.Percentage).HasDefaultValue(0);
         builder.Entity<Activities>().Property(p => p.Restriction).HasDefaultValue(false);
@@ -84,7 +84,7 @@ public class AppDbContext : DbContext
 
         builder.Entity<Images>().ToTable("Images");
         builder.Entity<Images>().HasKey(p => p.Id);
-        builder.Entity<Images>().Property(p => p.Url).IsRequired().HasMaxLength(50);
+        builder.Entity<Images>().Property(p => p.Url).IsRequired().HasMaxLength(150);
         builder.Entity<Images>().Property(p => p.DateCreated).HasDefaultValue(DateTime.Now);
         builder.Entity<Images>().Property(p => p.IsActive).HasDefaultValue(true);
         
