@@ -33,6 +33,11 @@ builder.Services.AddScoped<ICompanyDomain, CompanyDomain>();
 builder.Services.AddScoped<ICompanyData, CompanyData>();
 
 
+builder.Services.AddScoped<IPaymentDomain, PaymentDomain>();
+builder.Services.AddScoped<IPaymentData, PaymentData>();
+builder.Services.AddScoped<IPaymentMethodDomain, PaymentMethodDomain>();
+builder.Services.AddScoped<IPaymentMethodData, PaymentMethodData>();
+
 var connectionString = builder.Configuration.GetConnectionString("Conection");
 
 builder.Services.AddDbContext<AppDbContext>(

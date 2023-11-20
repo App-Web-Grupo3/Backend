@@ -19,6 +19,7 @@ public class ResourceToModel : Profile
 
         
         CreateMap<FavoritesRequest, Answer>();
-        CreateMap<PaymentMethodRequest, Answer>();
+        CreateMap<PaymentMethodRequest, PaymentMethod>();
+        CreateMap<PaymentRequest, Payment>();
     }
 }

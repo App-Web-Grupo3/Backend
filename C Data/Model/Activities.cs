@@ -24,4 +24,7 @@ public class Activities : Base
 
     [JsonIgnore]
     public Favorites Favorites { get; set; }
+     
+    [JsonIgnore]
+    public Payment Payment { get; set; }
 }

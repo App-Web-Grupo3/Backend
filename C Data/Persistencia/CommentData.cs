@@ -23,6 +23,7 @@ public class CommentData :ICommentData
     {
         return await _appDbContext.Comments.Where(c => c.Content.Contains(comment.Content)
                                                        && c.IsActive == true).ToListAsync();
+        
     }
 
     public async Task<List<Comment>> GetAll()
