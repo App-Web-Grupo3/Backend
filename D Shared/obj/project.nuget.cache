@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "1MoRm8qNj3QQhy2wMWCqd4tKuwxfEMNLbfZ7Kv7htGDJRNs165VbRYhHQWZORW1zJcopsu2roHB78LGyaG7AvQ==",
+  "dgSpecHash": "T079Y+LSrFRO8i5GwXpo+U82Y7NfKxAX+peUAvSeV1+UzRtKwxsH9qfeCMxAdhela5IbsOVtZlRhEnGjzraeHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alyne\\OneDrive - Universidad Peruana de Ciencias\\2023 2\\Aplicaciones web\\Proyecto actualizado\\WebService-Backend\\D Shared\\D Shared.csproj",
+  "projectFilePath": "C:\\Development\\UPC\\AppsWeb\\Backend\\D Shared\\D Shared.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\alyne\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
-    "C:\\Users\\alyne\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
-    "C:\\Users\\alyne\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512"
+    "C:\\Users\\Jack\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
+    "C:\\Users\\Jack\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
+    "C:\\Users\\Jack\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512"
   ],
   "logs": []
 }
